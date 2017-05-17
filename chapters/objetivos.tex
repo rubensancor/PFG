@@ -1,0 +1,84 @@
+\small %Quitar
+En este capítulo se habla sobre la necesidad de la cual surge crear este proyecto, la motivación por la cual se decide desarrollar el producto final y los objetivos que se pretender conseguir con el mismo.
+
+\section{Necesidades}
+
+Alboan ingreso el año 2015 nueve millones de euros. Este dinero proviene de donaciones tanto privadas como públicas. Las donaciones o ayudas públicas dependen del gobierno del año en la que las recibe, por lo que estas no tienen una solución posible ya que no dependen de nadie más que del gobierno. En cambio, las donaciones privadas, provenientes de personas o instituciones no públicas. Gracias a todas estas donaciones Alboan tiene 200 proyectos activos en 18 países diferentes, esto hace que mantener el dinero que la ONG invierte en cada uno de ellos sea crucial año tras año. \\
+
+En el ejercicio de 2014 la financiación privada crece gracias a los legados solidarios\footnote{Son las herencias que ciertas personas dejan a entidades solidarias con el fin de construir un mejor mundo.} que la gente deja a la organización, también son muy importantes las cuotas de los socios que representan un 28\% de las aportaciones privadas. Estas donaciones son importantes para que Alboan cada vez pueda llegar a más gente y pueda crear más proyectos necesarios.\\
+
+Años atrás Alboan comienza a detectar una bajada en la forma tradicional de hacer donaciones. Es entonces cuando se plantea buscar nuevos métodos para realizar estas donaciones y que el dinero siga fluyendo. En el ejercicio de 2015 la financiación privada fue ligeramente menor que el año anterior y se rompió la tendencia en alza. A parte de tener menos financiación Alboan se da cuenta de que algunos de sus proyectos no son conocidos y que la ayuda para que estos continúen es crucial, por lo que la preocupación hacia estos proyectos crece.\\
+
+Es entonces cuando le surgen a Alboan varias necesidades, la de volver a conseguir financiación privada ya que no pueden sustentarse únicamente de los legados solidarios y las cuotas que pagan sus socios y por otra parte la de hacer llegar a más personas sus proyectos para que de esta manera aumente su sensibilidad con el tema. Para lograr cubrir estas necesidades Alboan intenta pensar en una solución en la que los proyectos de la ONG se den a conocer y que la gente que este interesada en ellos pueda hacer una pequeña aportación, en este momento surge la idea de las pequeñas donaciones.\\
+
+
+\figura{0.6}{imgs/cuentas.png}{Ejercicio de cuentas}{cuentas}{}
+
+\newpage
+
+\section{Objetivos}
+
+El principal objetivo de este proyecto es crear un widget solidario que se pueda implantar en cualquier tienda online y crear la página web en la que se va a apoyar y se dará a conocer este widget. La página web también será el portal en el que la gente que ha realizado alguna donación pueda recoger su certificado de donación con el fin de presentarlo en la declaración de la renta.\\
+Otro objetivo sería el de crear el servidor con la base de datos para alojar los datos de las donaciones realizadas mediante el widget. Este servidor seria accesible para las personas de Alboan que quisieran consultar los datos de las donaciones o ver las gráficas relacionadas con esto.  \\
+
+\section{Requerimientos}
+
+En este apartado listaremos los diferentes requerimientos del proyecto.
+
+\begin{itemize}
+	\item Formar a las personas que realizarán el mantenimiento del sistema mediante tutoriales.
+	\item Utilizar las últimas tecnologías en diseño web.
+	\item Crear una web responsiva para que todos los usuarios puedan acceder a ella y que evite la brecha digital.
+	\item Garantizar los tiempos de respuesta del widget para que las empresas que lo usen no vean perjudicados sus comercios online.
+	\item Visualización de datos comprensible e intuitiva.
+\end{itemize}
+
+\section{Estado del arte}
+En este apartado se hace un análisis de las diferentes opciones que hay para cubrir las necesidades citadas anteriormente.
+\subsection{Crowdfunding}
+“Cooperación colectiva, llevada a cabo por personas que realizan una red para conseguir dinero u otros recursos, se suele utilizar Internet para financiar esfuerzos e iniciativas de otras personas u organizaciones”\cite{crowd}\\
+
+En el crowdfundig hay diferentes tipos de ayudas y de sistemas creados para financiar los proyectos que la gente sube a las plataformas: basado en donaciones (migranodearena, teaming...), basados en recompensas(Goteo, Verkami...) y para préstamos(ECrowd!) entre otros.
+
+\subsubsection{Basado en donaciones}
+El usuario realiza una donación para ayudar a un proyecto que le gusta y no recibe ningún beneficio económico en retorno (solo la satisfacción de hacer algo bueno y de apoyar un proyecto que le emociona). Son proyectos solidarios con un impacto social grande.
+\begin{itemize}
+	\item \textbf{Migranodearena.org:}\smallbreak
+	La página web migranodearena es un proyecto creado por la Fundación Privada real dreams. Es una plataforma de crowdfunding solidario, pionera en España, abierta para todas las Entidades No Lucrativas, legalmente constituidas y con sede en España. \\
+	En migranodearena se puede liderar un reto y recaudar fondos en grupo a favor de una ONG. Una persona o grupo de personas, lanza un reto en migranodeareana para apoyar una causa solidaria. Comparte el reto con todos sus familiares, amigos, conocidos, clientes, empleados, proveedores y entre todos suman granitos de arena.
+	\item \textbf{Teaming:}\smallbreak
+	Teaming es una herramienta online para recaudar fondos para causas sociales a través de micro donaciones de \EUR{1} al mes. La filosofía de Teaming se basa en la idea de que con \EUR{1}, nosotros solos no podemos hacer mucho pero si nos unimos, podemos conseguir grandes cosas.\\
+	El sistema de funcionamiento de Teaming es muy sencillo, puedes publicar un grupo en el que la gente se apunte y done \EUR{1} al mes o puedes apuntarte a un grupo que otra persona haya publicado para donar tu ese euro. Entre las ideas clave mas destacadas de la plataforma están la de solo donar \EUR{1} al mes, ni más ni menos y la de solo aceptar causas sociales.
+\end{itemize}
+
+\subsubsection{Basado en recompensas}
+Se trata de aportar dinero a un proyecto y se recibe a cambio una recompensa. Los proyectos pueden consistir en crear y diseñar un nuevo producto o financiar un proyecto cultural (película, festival, musical). Es el modelo de crowdfunding más utilizado y conocido. En cada proyecto se puede elegir entre un rango de recompensas en función de la cantidad de dinero que se aporte.
+
+\begin{itemize}
+	\item \textbf{Goteo:} \smallbreak
+	A simple vista, Goteo es una plataforma de crowdfunding cívico y colaboración en torno a iniciativas ciudadanas, proyectos sociales, culturales, tecnológicos y educativos. Con réplicas y alianzas en varios países, gracias a su código abierto, además de reconocida y premiada internacionalmente desde 2011. Constituye una herramienta de generación de recursos, gota a gota, para una comunidad de comunidades compuesta por más de 65.000 personas, con un porcentaje de éxito de financiación superior al 70\%.\\
+	Pero en realidad Goteo es mucho más que eso. Tras la plataforma existe una fundación sin ánimo de lucro y un equipo multidisciplinar desde el que desarrollan herramientas y servicios de co-creación y financiación colectiva. Con una misión común vinculada siempre a principios de transparencia, progreso y mejora de la sociedad.
+\end{itemize}
+
+\subsubsection{Para prestamos}
+El usuario realiza una inversión en un proyecto o en una empresa de la plataforma y recibe un retorno económico en forma de intereses. La empresa contrata un préstamo con la plataforma de crowdlending, que lo gestiona, y el usuario recupera el dinero invertido junto a los intereses a lo largo del tiempo según las condiciones pactadas en el préstamo.
+
+\begin{itemize}
+	\item \textbf{ECrowd!:} \smallbreak
+	ECrowdInvest es una plataforma de crowdlending (crowdfunding en forma de préstamo) para proyectos con impacto social y medio ambiental positivo (lo que venimos a llamar impacto positivo). Es una clara versión del clásico "win-win", donde todos ganan, ya que los buenos proyectos consiguen financiarse, los inversores reciben unos intereses mucho más altos de los que se obtienen con los bancos y siempre se genera un impacto positivo sobre el medio ambiente, por ejemplo, en la financiación colectiva de proyectos que impliquen la reducción de emisiones de dióxido de carbono hacia la atmósfera.
+\end{itemize}
+
+
+\subsection{Micro donaciones}
+
+Las micro donaciones, como su nombre indica, son donaciones muy pequeñas realizadas con el fin de aportar una pequeña cantidad de dinero al proyecto que nos interesa. En este ámbito nos encontramos con Worldcoo una herramienta online con bastante recorrido y reconocimiento.
+
+\begin{itemize}
+	\item \textbf{Worldcoo:} \smallbreak
+	Worldcoo es una empresa nacida en 2012 que pretende crear un nuevo canal de financiación mediante un widget incrustado en tiendas online. Esto permite que las miles de personas que acceden y compran en las tiendas online puedan donar una pequeña cantidad al proyecto que esa página tiene apadrinado.\\
+	Cuentan con un extenso equipo de personas y de embajadores en varios paises del mundo, lo que les da acceso a muchos comercios online. Las empresas contactan con Worldcoo y acuerdan entre los dos la instalación del widget en su tienda online. Este widget esta relacionado con uno de los proyectos de las ONGs a las que Worldcoo ayuda.
+\end{itemize}
+
+Esto es exactamente lo que Alboan quiere, pero tiene algunas carencias. La empresa Worldcoo se queda un 8\% de las donaciones realizadas a cada proyecto por lo que esto empieza a disgustar a Alboan, esta empresa tampoco permite ver las personas que están donando a los proyectos por lo que no permite mantener el contacto con esas personas para hacerles conscientes de que su ayuda tiene un resultado. \\
+
+Después de hacer un análisis de todas las opciones y ver los resultados Alboan decide crear su propia plataforma de micro donaciones mediante widgets en tiendas online.

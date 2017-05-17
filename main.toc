@@ -1,0 +1,74 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.4}
+\contentsline {section}{\numberline {1.1}Presentaci\IeC {\'o}n del documento}{1}{section.5}
+\contentsline {chapter}{\numberline {2}Objetivos del proyecto}{3}{chapter.6}
+\contentsline {section}{\numberline {2.1}Alboan}{3}{section.7}
+\contentsline {subsection}{\numberline {2.1.1}Misi\IeC {\'o}n y Visi\IeC {\'o}n}{3}{subsection.9}
+\contentsline {subsubsection}{Misi\IeC {\'o}n}{3}{subsubsection*.10}
+\contentsline {subsubsection}{Visi\IeC {\'o}n}{4}{subsubsection*.11}
+\contentsline {subsection}{\numberline {2.1.2}Dedicaci\IeC {\'o}n}{4}{subsection.12}
+\contentsline {chapter}{\numberline {3}Situaci\IeC {\'o}n de partida}{5}{chapter.13}
+\contentsline {section}{\numberline {3.1}Necesidades}{5}{section.14}
+\contentsline {section}{\numberline {3.2}Objetivos}{6}{section.17}
+\contentsline {section}{\numberline {3.3}Requerimientos}{6}{section.18}
+\contentsline {section}{\numberline {3.4}Estado del arte}{6}{section.19}
+\contentsline {subsection}{\numberline {3.4.1}Crowdfunding}{6}{subsection.20}
+\contentsline {subsubsection}{Basado en donaciones}{6}{subsubsection*.21}
+\contentsline {subsubsection}{Basado en recompensas}{7}{subsubsection*.22}
+\contentsline {subsubsection}{Para prestamos}{7}{subsubsection*.23}
+\contentsline {subsection}{\numberline {3.4.2}Micro donaciones}{7}{subsection.24}
+\contentsline {chapter}{\numberline {4}Definici\IeC {\'o}n del proyecto}{9}{chapter.25}
+\contentsline {section}{\numberline {4.1}Descripci\IeC {\'o}n del producto}{9}{section.26}
+\contentsline {subsection}{\numberline {4.1.1}Widget}{9}{subsection.28}
+\contentsline {subsection}{\numberline {4.1.2}Pagina web}{10}{subsection.30}
+\contentsline {subsection}{\numberline {4.1.3}Base de datos}{11}{subsection.31}
+\contentsline {subsection}{\numberline {4.1.4}Servidor}{11}{subsection.32}
+\contentsline {subsection}{\numberline {4.1.5}Visualizaci\IeC {\'o}n}{11}{subsection.33}
+\contentsline {section}{\numberline {4.2}Descripci\IeC {\'o}n de la realizaci\IeC {\'o}n}{13}{section.34}
+\contentsline {subsection}{\numberline {4.2.1}SCRUM}{13}{subsection.35}
+\contentsline {subsection}{\numberline {4.2.2}Trello}{13}{subsection.37}
+\contentsline {subsection}{\numberline {4.2.3}Tareas}{14}{subsection.39}
+\contentsline {subsubsection}{Investigaci\IeC {\'o}n sobre las tecnolog\IeC {\'\i }as a utilizar}{15}{subsubsection*.40}
+\contentsline {subsubsection}{Redactar el documento sobre las tecnolog\IeC {\'\i }as a utilizar}{15}{subsubsection*.41}
+\contentsline {subsubsection}{Instalar las herramientas de desarrollo}{15}{subsubsection*.42}
+\contentsline {subsubsection}{Configurar la herramienta de control de versiones}{15}{subsubsection*.43}
+\contentsline {subsubsection}{Dise\IeC {\~n}ar la arquitectura del proyecto}{15}{subsubsection*.44}
+\contentsline {subsubsection}{Crear el primer dise\IeC {\~n}o de la p\IeC {\'a}gina web}{15}{subsubsection*.45}
+\contentsline {subsubsection}{Crear el primer dise\IeC {\~n}o del widget}{15}{subsubsection*.46}
+\contentsline {subsubsection}{Desarrollar la l\IeC {\'o}gica del servidor}{15}{subsubsection*.47}
+\contentsline {subsubsection}{Pruebas servidor}{15}{subsubsection*.48}
+\contentsline {subsubsection}{Configurar la base de datos}{15}{subsubsection*.49}
+\contentsline {subsubsection}{Pruebas base de datos}{15}{subsubsection*.50}
+\contentsline {subsubsection}{Desarrollar la l\IeC {\'o}gica de la p\IeC {\'a}gina web}{15}{subsubsection*.51}
+\contentsline {subsubsection}{Desarrollar la l\IeC {\'o}gica del widget}{15}{subsubsection*.52}
+\contentsline {subsubsection}{Consolidar el dise\IeC {\~n}o de la p\IeC {\'a}gina web}{16}{subsubsection*.53}
+\contentsline {subsubsection}{Pruebas de la p\IeC {\'a}gina web}{16}{subsubsection*.54}
+\contentsline {subsubsection}{Consolidar el dise\IeC {\~n}o del widget}{16}{subsubsection*.55}
+\contentsline {subsubsection}{Pruebas del widget}{16}{subsubsection*.56}
+\contentsline {subsubsection}{Crear manual de usuario para los t\IeC {\'e}cnicos de mantenimiento}{16}{subsubsection*.57}
+\contentsline {subsubsection}{Investigar los frameworks de visualizaci\IeC {\'o}n de datos}{16}{subsubsection*.58}
+\contentsline {subsubsection}{Configurar el framework de visualizaci\IeC {\'o}n de datos}{16}{subsubsection*.59}
+\contentsline {subsubsection}{Pruebas sobre el framework de visualizaci\IeC {\'o}n de datos}{16}{subsubsection*.60}
+\contentsline {subsubsection}{Analizar los datos}{16}{subsubsection*.61}
+\contentsline {subsubsection}{Extraer las estad\IeC {\'\i }sticas de los datos}{16}{subsubsection*.62}
+\contentsline {section}{\numberline {4.3}Productos intermedios}{16}{section.63}
+\contentsline {chapter}{\numberline {5}Condiciones de ejecuci\IeC {\'o}n}{17}{chapter.64}
+\contentsline {section}{\numberline {5.1}Instalaciones}{17}{section.65}
+\contentsline {subsection}{\numberline {5.1.1}Hardware}{17}{subsection.66}
+\contentsline {subsection}{\numberline {5.1.2}Software}{17}{subsection.67}
+\contentsline {subsubsection}{Atom}{17}{subsubsection*.68}
+\contentsline {subsubsection}{MongoDB}{17}{subsubsection*.69}
+\contentsline {subsubsection}{Git}{17}{subsubsection*.70}
+\contentsline {subsubsection}{Brackets}{18}{subsubsection*.71}
+\contentsline {section}{\numberline {5.2}Equipo de proyecto}{18}{section.72}
+\contentsline {subsection}{\numberline {5.2.1}Interacci\IeC {\'o}n con el cliente}{18}{subsection.73}
+\contentsline {subsection}{\numberline {5.2.2}Perfiles profesionales}{18}{subsection.75}
+\contentsline {subsection}{\numberline {5.2.3}Procedimientos de seguimiento y control}{19}{subsection.77}
+\contentsline {chapter}{\numberline {6}Planificaci\IeC {\'o}n}{21}{chapter.78}
+\contentsline {section}{\numberline {6.1}Presupuesto}{21}{section.79}
+\contentsline {section}{\numberline {6.2}Planificaci\IeC {\'o}n del proyecto}{22}{section.82}
+\contentsline {section}{\numberline {6.3}Justificaci\IeC {\'o}n financiera}{22}{section.84}
+\contentsline {chapter}{\numberline {7}Especificaci\IeC {\'o}n de requisitos}{25}{chapter.85}
+\contentsline {section}{\numberline {7.1}Especificaci\IeC {\'o}n de requisitos del servidor Node.js}{25}{section.86}
+\contentsline {section}{\numberline {7.2}Especificaci\IeC {\'o}n de requisitos de la p\IeC {\'a}gina web}{25}{section.87}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{27}{section.87}

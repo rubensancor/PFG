@@ -1,0 +1,96 @@
+\documentclass{memoriaPFC}
+\fontfamily{cmss}\selectfont
+
+
+
+%
+% DATOS DEL DOCUMENTO
+%
+
+\title{Colmena: diseño e implementación de un widget web para micro donaciones, con página web de soporte, almacenamiento de datos y su posterior visualización}
+
+%\autores{Nombre1 Apellidos1}{Nombre2 Apellidos2} Hasta 5 autores
+\autores{Rubén Sánchez Corcuera}{}{}{}{}
+
+%El director del proyecto
+\director{Pablo García Bringas}
+%\directora{Ursula K. Le Guin}
+
+% iaei ii ioi itel (ii es un pdf que contiene los logos para el grado de informatica, el unico actualizado)
+\titulacion{ii}
+
+% mayo || septiembre (en minúsculas!!)
+\date{mayo de 2017}
+
+\resumen{%
+ El proyecto consta de varios módulos. La base de todo es un servidor implementado en node.js. En él se aloja la página web, los widgets de las diferentes empresas que han decidido implantarlo en sus páginas web y una restful API que administra el enrutamiento de la web y permite varias funciones sobre la base de datos.\\
+ 
+ La página web sirve de apoyo al widget, es donde se muestra la información general del widget, los diferentes proyectos a los que apoyar, un wizard con el que poder crear tu propio widget y la plataforma para poder conseguir el certificado de donación.\\
+ 
+ La base de datos noSQL aloja los datos de las diferentes donaciones para posteriormente poder crear el certificado de donación y eventualmente generar estadísticas sobre las cantidades, fechas y lugares en los que más donaciones se están obteniendo.\\
+ 
+ Por último, el widget. Está pensado para que las empresas que tengan portales de compra online lo incrusten durante algunas de sus fases compra del cliente con el fin de que este haga una pequeña donación a la causa que las empresas han “apadrinado”. El widget es personalizable por las empresas que lo quieran implantar en su web, así conseguir una mayor integración con ellas. Entre sus opciones de personalización destaca la posibilidad de elegir entre una cantidad fija o variable de donación.
+  
+ 
+}
+\descriptores{solidaridad, widget, RESTful, NodeJS, MongoDB}
+
+
+%
+% COMIENZO DEL DOCUMENTO
+%
+\begin{document}
+
+% Portada, resumen, indices
+\frontmatter
+\hacerportada
+\hacerresumen
+\tableofcontents
+\listoffigures % Opcional
+\listoftables % Opcional
+%\lstlistoflistings % Opcional
+
+% Contenidos
+\mainmatter
+\chapter{Introducción}
+
+\input{chapters/introduccion}
+
+\chapter{Objetivos del proyecto}
+
+\input{chapters/demandante}
+
+\chapter{Situación de partida}
+
+\input{chapters/objetivos}
+
+\chapter{Definición del proyecto}
+
+\input{chapters/definicion}
+
+\chapter{Condiciones de ejecución}
+
+\input{chapters/condiciones}
+
+\chapter{Planificación}
+
+\input{chapters/presupuestos}
+
+\chapter{Especificación de requisitos}
+
+\input{chapters/requisitos}
+
+
+% Apéndices
+\backmatter
+\appendix
+%\chapter{Acrónimos}
+
+%\chapter{Licencia}
+%\input{0202_apendice}
+
+\bibliografia{otrasreferencias}
+%\bibliografiaOtras{otrasreferencias.bib} %Opcional
+
+
+\end{document}
