@@ -24,7 +24,7 @@
 \RequirePackage{multibib}
 \RequirePackage{eurosym}
 
-\RequirePackage[hypertexnames=false,pdftex=true,colorlinks=true,linkcolor=blue,bookmarks=true]{hyperref}
+%\RequirePackage[hypertexnames=false,pdftex=true,colorlinks=true,linkcolor=blue,bookmarks=true]{hyperref}
 %\RequirePackage{fancyhdr} % Tiene que ir después del paquete "geometry"
 %\RequirePackage{amsfonts}
 \RequirePackage{color}

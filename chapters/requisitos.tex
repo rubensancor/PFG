@@ -1,3 +1,15 @@
+\section{Visión general}
+
+En este capitulo se especifican los requisitos que el proyecto debe satisfacer y que definen el funcionamiento de todo el software que compone este proyecto. Para una mejor compresión de los mismos, se dividen en los siguientes bloques:
+
+\begin{itemize}
+	\item \textit{Especificación de requisitos del servidor Node.js:} en esta sección se recogen los requisitos que debe de satisfacer el servidor, este es el encargado de soportar todo el sistema.
+	\item \textit{Especificación de requisitos de la página web:} en esta sección se recogen los requisitos que debe satisfacer la página web del proyecto.
+	\item \textit{Especificación de requisitos del widget:} en esta sección se recogen los requisitos que debe satisfacer el widget del proyecto, el elemento que estará incrustado en las tiendas online.
+	\item \textit{Especificación de requisitos de la base de datos:} en esta sección se recogen los requisitos que debe satisfacer la base de datos, esta albergará los datos de las donaciones y donantes.
+	\item \textit{Especificación de requisitos del sistema de visualización:} en esta sección se recogen los requisitos que debe satisfacer el sistema de visualización, el encargado de crear gráficas interactivas para la visualización y estudio de los datos.
+\end{itemize}
+
 \section{Especificación de requisitos del servidor Node.js}
 Los requisitos funcionales del servidor Node.js son:
 
@@ -15,8 +27,8 @@ Los requisitos funcionales del servidor Node.js son:
 Los requisitos no funcionales son:
 
 \begin{itemize}
-	\item \textbf{RNF0.1} Sostenibilidad: el sistema tiene que tener un mantenimiento sencillo ya que tiene conexiones con paginas de terceros lo que obliga a que el mantenimiento sea sencillo y rápido.
-	\item \textbf{RNF0.2} Escalabilidad: el servidor tiene que ser escalable ya que la creación de nuevos widgets o la oferta de datos a terceras aplicaciones puede ser grande.
+	\item \textbf{RNF.0.1} Mantenibilidad: el sistema tiene que tener un mantenimiento sencillo ya que tiene conexiones con paginas de terceros lo que obliga a que el mantenimiento sea sencillo y rápido.
+	\item \textbf{RNF.0.2} Escalabilidad: el servidor tiene que ser escalable ya que la creación de nuevos widgets o la oferta de datos a terceras aplicaciones puede ser grande.
 \end{itemize}
 
 
@@ -26,11 +38,69 @@ Los requisitos no funcionales son:
 Los requisitos funcionales de la página web son:
 
 \begin{itemize}
-	\item \textbf{RF.0.1} La página web debe ser 
+	\item \textbf{RF.1.1} La página web debe ofrecer un wizard para la creación de nuevos. widgets
+	\item \textbf{RF.1.2} La página web debe ofrecer un formulario para la obtención de un certificado de donación.
+	\item \textbf{RF.1.3} La página web debe ofrecer un sistema para comunicarse con el soporte del proyecto.
 \end{itemize}
 
+Los requisitos no funcionales de la página web son:
 
+\begin{itemize}
+	\item \textbf{RNF.1.1} La página web debe informar sobre el proyecto.
+	\item \textbf{RNF.1.2} La página web debe informar sobre los proyectos de la ONG.
+	\item \textbf{RNF.1.3} Accesibilidad: La página web tiene que ser responsiva para ser adaptable en diferentes dispositivos.
+	\item \textbf{RNF.1.4} Interfaz: la página web debe tener un diseño simple para facilitar la navegación.
+	\item \textbf{RNF.1.5} Escalabilidad: la página tiene que ser escalable ya que se tienen que poder añadir nuevos proyectos a ella.
+\end{itemize}
+
+\section{Especificación de requisitos del widget}
+
+Los requisitos funcionales del widget son:
+
+\begin{itemize}
+	\item \textbf{RF.2.1} El widget debe permitir la donación fija o variable de una cantidad de dinero.
+	\item \textbf{RF.2.2} El widget debe ser de fácil implantación por parte de la tienda online.
+\end{itemize}
+
+Los requisitos no funcionales del widget son:
+
+\begin{itemize}
+	\item \textbf{RNF.2.1} El widget debe informar sobre el proyecto al que va destinado.
+	\item \textbf{RNF.2.2} Accesibilidad: el widget debe ser responsivo para que pueda añadirse en cualquier tienda.
+	\item \textbf{RNF.2.3} Interfaz: el widget debe ser 100\% personalizable.
+	\item \textbf{RNF.2.4} Disponibilidad: el widget debe estar disponible en todo momento para su uso por parte de los comercios online.
+\end{itemize}
 
 \section{Especificación de requisitos de la base de datos}
 
+Los requisitos funcionales de la base de datos son:
+
+\begin{itemize}
+	\item \textbf{RF.3.1} La base de datos debe almacenar los datos de las donaciones.
+	\item \textbf{RF.3.2} La base de datos debe almacenar los dados de los donantes.
+	\item \textbf{RF.3.3} La base de datos debe proporcionar los datos que se le pidan.
+\end{itemize}
+
+Los requisitos no funcionales de la base de datos son:
+
+\begin{itemize}
+	\item \textbf{RNF.3.1} Rendimiento: la base de datos debe almacenar y proporcionar los datos en un tiempo razonable.
+	\item \textbf{RNF.3.2} Seguridad: la base de datos debe ser segura para no poner en peligro los datos de los donantes.
+	\item \textbf{RNF.3.3} Disponibilidad: La base de datos debe estar disponible para almacenar las donaciones e información de donantes.
+\end{itemize}
+
 \section{Especificación de requisitos del sistema de visualización}
+
+Los requisitos funcionales del sistema de visualización son:
+
+\begin{itemize}
+	\item \textbf{RF.4.1} El sistema de visualización debe ofrecer gráficos interactivos.	
+	\item \textbf{RF.4.2} El sistema de visualización debe conectarse con el servidor para adquirir los datos.
+\end{itemize}
+
+Los requisitos no funcionales del sistema de visualización son:
+
+\begin{itemize}
+		\item \textbf{RNF.4.1} Escalabilidad: el sistema de visualización de datos debe ser escalable ya que los datos pueden crecer y la manera de mostrarlos cambiar.
+		\item \textbf{RNF.4.2} Interfaz: el sistema de visualización de datos debe tener una interfaz intuitiva que permita una buena navegación por los gráficos.
+\end{itemize}
