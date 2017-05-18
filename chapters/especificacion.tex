@@ -33,10 +33,22 @@ Finalmente, en la tercera capa, la de datos, se encuentra el sistema de base de 
 \figuraSinMarco{0.8}{imgs/Arquitectura.png}{Arquitectura del proyecto}{arquitectura}{}
 
 \section{Diseño del servidor}
-El diseño del servidor se ha hecho
+El diseño del servidor se ha hecho siguiendo el modelo en el que el servidor Node.js con el apoyo de Express ofrece un API a las diferentes aplicaciones que están conectadas con el. En esta API el servidor ofrece toda la funcionalidad que estas aplicaciones tienen que desarrollar, por demanda de estas, y ademas puede ofrecer mas funcionalidades que el proyecto pueda ofrecer a aplicaciones o elementos que puedan incorporarse en el futuro del proyecto.\\
+
+Gracias a este modelo es muy sencillo añadir nuevas rutas y funcionalidades que las aplicaciones, nuevas o ya existentes, demanden del servidor. Además esta API mantendrá una conexión con la base de datos lo que permitirá el envio, consulta y almacenamiento de información de una manera muy veloz.\\
+
+El servidor estará organizado de manera que en la carpeta \textit{public} estarán alojados todos los archivos comunes incluyendo los scripts de JavaScript que sean necesarios para el desarrollo de las aplicaciones y las librerías correspondientes entre otras cosas\\
+
+Por último cabe destacar que en el diseño creado para el servidor todo gira alrededor del archivo en el que esta desarrollada la API, aunque la creación del servidor en el puerto especificado y la configuración de red se encuentre en el archivo original del servidor.\\
+
+HACER DIAGRAMA DEL SERVIDOR
 
 \section{Diseño de la página web}
 El diseño de la página web se ha realizado basándose en las convenciones de Bootstrap para que la web sea totalmente responsiva y visualizable desde la gran mayoría de los navegadores. Gracias al diseño con este framework se podrán añadir los componentes especificos que ofrece e implementar utilidades que sin este framework serian mas complejas de desarrollar.\\
+
+La página web se ha diseñado de manera que toda la información y las funcionalidades disponibles estén a la vista. Por eso se ha planteado una sola vista en la que por medio de algunos botones se desplieguen nuevas ventanas en las que poder añadir alguna funcionalidad o datos que de otra manera alargarían la página de manera negativa. Por otra parte\\
+
+La página se ha planteado muy minimalista en cuanto a contenido, siguiendo siempre el estilo y colores de Alboan. Otro de los planteamientos que se hace para la página es el de añadirle 
 
 
 
