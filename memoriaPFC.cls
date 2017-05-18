@@ -403,7 +403,7 @@
 %\makeatother
 
 % Definimos el nivel de detalle del índice: \section
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{2}
 
 % Redefinimos el nombre de las tablas.
 % En babel está traducido por 'Cuadro' :-?

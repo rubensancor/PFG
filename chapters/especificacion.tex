@@ -1,0 +1,48 @@
+\section{Visión general}
+Este capitulo tiene como objetivo describir la labor de diseño realizada para desarrollar el proyecto, así como las herramientas que se han utilizado para realizar estos diseños. En el siguiente listado se describen los diferentes diseños que se van a explicar en este capitulo:
+
+\begin{itemize}
+	\item Diseño de la arquitectura: descripción de la arquitectura elegida para el proyecto.
+	\item Diseño del servidor: descripción del diseño del servidor.
+	\item Diseño de la página web: descripción del diseño de la página web.
+	\item Diseño del widget: descripción del diseño del widget.
+	\item Diseño de la base de datos: descripción del diseño de la base de datos
+\end{itemize}
+
+\section{Herramientas utilizadas}
+Las herramientas que se han utilizado a la hora de diseñar el proyecto y sus elementos son las siguientes:
+
+\subsection{Draw.io}
+Draw.io es una herramienta web que se utiliza para el desarrollo de diagramas de cualquier tipo, lo cual la hace una herramienta muy potente. Ofrece una gran cantidad de iconos y personalizacion de los mismos para realizar los diagramas lo mas atractivos posibles. Entre sus caracteristicas destaca la integracion con sistemas de almacenamiento online como Google Drive o Dropbox y Github.\\
+
+En lo respectivo a este proyecto, solo se ha utilizado para diseñar los diagramas: AÑADIR DIAGRAMAS.
+
+\subsection{gomockingbird}
+
+Aplicación para mockups.
+
+\section{Diseño de la arquitectura}
+La arquitectura del proyecto (ver figura 9.1) se basa en un modelo en tres capas que gira en torno a el servidor Node.js. Estas tres capas permiten separar la parte visual, la lógica y la arquitectura de datos. Gracias a este modelo se puede centralizar la lógica del proyecto en la capa intermedia y abstraerla de los elementos externos a los que ofrece soporte.\\
+
+En la capa de presentación se encuentran la página web y el widget. Estos dos elementos dan soporte a la parte visual del proyecto y están conectados con el servidor para que este les proporcione funcionalidad. En esta capa también se encuentra el sistema de visualización de datos del proyecto, este recibe los datos de la base de datos por medio del servidor que se los provee formateados.\\
+
+En la capa intermedia, la de proceso, se encuentra el servidor que implementa la funcionalidad de toda la solución. Este alberga los widgets que los comercios online van a implementar en sus páginas web y les da la funcionalidad para permitir las donaciones. A la página web le provee del enrutado necesario para implementar sus funcionalidades principales, como la de obtener un certificado de donación o el contacto con el soporte del proyecto. En cuanto al sistema de visualización le otorga los datos, con el formato que necesita, para generar los gráficos deseados. Por ultimo, esta conectado también con la capa de datos, en la que se encuentra la base de datos, con la cual conecta para enviar y pedir datos.\\
+
+Finalmente, en la tercera capa, la de datos, se encuentra el sistema de base de datos. La base de datos, conectada con el servidor, almacena los datos que le llegan desde este y realiza las búsquedas y peticiones que el servidor le pide. Todo esto lo hace mediante el lenguaje de intercambio de datos JSON del que hemos hablado anteriormente.
+
+\figuraSinMarco{0.8}{imgs/Arquitectura.png}{Arquitectura del proyecto}{arquitectura}{}
+
+\section{Diseño del servidor}
+El diseño del servidor se ha hecho
+
+\section{Diseño de la página web}
+El diseño de la página web se ha realizado basándose en las convenciones de Bootstrap para que la web sea totalmente responsiva y visualizable desde la gran mayoría de los navegadores. Gracias al diseño con este framework se podrán añadir los componentes especificos que ofrece e implementar utilidades que sin este framework serian mas complejas de desarrollar.\\
+
+
+
+\section{Diseño del widget}
+El diseño del widget se ha hecho de la manera mas simple posible, utilizando solo tecnologías que todos los navegadores puedan implementar, estas tecnologías son HTML, CSS y JavaScript.\\
+
+El widget 
+
+
