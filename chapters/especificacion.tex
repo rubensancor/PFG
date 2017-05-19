@@ -4,9 +4,10 @@ Este capitulo tiene como objetivo describir la labor de diseño realizada para d
 \begin{itemize}
 	\item Diseño de la arquitectura: descripción de la arquitectura elegida para el proyecto.
 	\item Diseño del servidor: descripción del diseño del servidor.
-	\item Diseño de la página web: descripción del diseño de la página web.
+	\item Diseño de la página web: descripción del diseño de la página web, tanto lógica como visual.
 	\item Diseño del widget: descripción del diseño del widget.
-	\item Diseño de la base de datos: descripción del diseño de la base de datos
+	\item Diseño de la base de datos: descripción del diseño de la base de datos y de su estructura.
+	\item Diseño del sistema de visualización: descripción del diseño del sistema de visualización y de los gráficos incluidos en este.
 \end{itemize}
 
 \section{Herramientas utilizadas}
@@ -46,15 +47,67 @@ HACER DIAGRAMA DEL SERVIDOR
 \section{Diseño de la página web}
 El diseño de la página web se ha realizado basándose en las convenciones de Bootstrap para que la web sea totalmente responsiva y visualizable desde la gran mayoría de los navegadores. Gracias al diseño con este framework se podrán añadir los componentes especificos que ofrece e implementar utilidades que sin este framework serian mas complejas de desarrollar.\\
 
-La página web se ha diseñado de manera que toda la información y las funcionalidades disponibles estén a la vista. Por eso se ha planteado una sola vista en la que por medio de algunos botones se desplieguen nuevas ventanas en las que poder añadir alguna funcionalidad o datos que de otra manera alargarían la página de manera negativa. Por otra parte\\
+La página web se ha diseñado de manera que toda la información y las funcionalidades disponibles estén a la vista. Por eso se ha planteado una sola vista en la que por medio de algunos botones se desplieguen nuevas ventanas en las que poder añadir alguna funcionalidad o datos que de otra manera alargarían la página de manera negativa. Por otra parte se ha diseñado un menú superior que acompañará al usuario en todo momento para ofrecerle accesos directos a las diferentes secciones de la página web sin tener que ir hasta ella.\\
 
-La página se ha planteado muy minimalista en cuanto a contenido, siguiendo siempre el estilo y colores de Alboan. Otro de los planteamientos que se hace para la página es el de añadirle 
+La página se ha planteado muy minimalista en cuanto a contenido, siguiendo siempre el estilo y colores de Alboan. Se plantea de esta manera para hacer que esta no eclipse a la página principal de Alboan, sino que sea algo complementario que informe mas sobre el proyecto Colmena que los proyectos de la ONG. En cuanto al diseño estético se plantean secciones acotadas en las que se desarrollará una única funcionalidad o se expondrá un tema informativo.\\
 
+En cuanto al diseño de la lógica de la página web, este esta preparado para que la página web no tenga que incluir ningún código JavaScript que no sea estrictamente estético. Toda la lógica de la página web ira integrada en la API que ofrece el servidor.\\
 
+En conclusión, en cuanto a diseño estético la página es altamente escalable ya que solo haría falta añadir una nueva sección. La lógica tampoco supone ningún problema ya que el servicio que la página web quiera dar deberá estar implementado en la API por lo que en la página web solo se deberá desarrollar la llamada a este.\\
+
+AÑADIR DISEÑO PAGINA WEB
 
 \section{Diseño del widget}
-El diseño del widget se ha hecho de la manera mas simple posible, utilizando solo tecnologías que todos los navegadores puedan implementar, estas tecnologías son HTML, CSS y JavaScript.\\
+El diseño del widget se ha hecho de la manera mas simple posible, utilizando solo tecnologías que todos los navegadores puedan soportar, estas tecnologías son HTML, CSS y JavaScript.\\
 
-El widget 
+Dentro de la lógica del widget se encuentran solo las funciones básicas que el widget tiene que realizar. En este caso se ha pensado en desarrollar solo 3 funciones, las dos primeras se encargarán de hacer el cambio dinámico del dinero en el widget, por lo que no son funcionales, solo visuales. La tercera función si que será la encargada de implementar toda la logica del widget. Esta sera la encargada de enviar la donación al servidor con todos los datos que se necesitan.\\
 
+En cuanto a la estética del widget este se ha diseñado para que sea completamente personalizable, de esta manera, los comercios online puedan diseñar sus propios widgets y los hagan aptos para sus páginas. Para poder mantener esta política de diseño y combinarla con la tecnologías básicas, se ha planteado que el diseño del widget sea guiado mediante un wizard.
+
+\section{Diseño de la base de datos}
+La base de datos se ha diseñado partiendo de la premisa de que esta tenia que ser implementada en mongoDB. Una vez analizado los datos que iba a tener que almacenar y viendo los requisitos y necesidades que el proyecto presentaba se ha decidido crear una única base de datos que almacene los documentos en una sola colección.\\
+
+En cuanto a los documentos que la base de datos almacena, estos solo tendrán dos formatos, el primero será el que tienen cuando llegan del widget de donaciones y posteriormente se les añaden los datos de la persona que dona. Por este motivo se diseña la base de datos con una sola colección en la que se alojan los datos de dos formas diferentes.\\
+
+Gracias a este diseño podemos simplificar las conexiones con la base de datos desde el servidor ya que solo tendrá que hacerse a una colección. Por otra parte al solo tener una colección podremos unificar las búsquedas que se hagan en la base de datos. Finalmente al no tener documentos con excesivo tamaño podemos almacenar todos los datos en una sola colección y no corremos el riesgo de que esta se desborde ya que no tiene limite de documentos.
+
+\subsection{Colección}
+
+La colección se llamará 'Donaciones' en la que se albergaran los documentos en los dos formatos que se han descrito anteriormente. Estos documentos tienen los siguientes datos y formatos:
+
+\begin{itemize}
+	\item \textbf{Fecha:} la fecha de la donación con dia, mes y año. Esta dividida en un array de tres entero.
+	\item \textbf{Usada:} un booleano de si la donacion ha sido usada o no. 
+	\item \textbf{IdDonación:} el id de la donación en un entero.
+	\item \textbf{Importe:} el importe de la donacion en un entero.
+\end{itemize}
+
+Una vez la donación se usa para obtener el certificado de donación, se le añaden al documento en la base de datos los siguientes datos:
+
+\begin{itemize}
+	\item \textbf{DNI:} el DNI o CIF de la persona juridica o fisica en un entero.
+	\item \textbf{Nombre:} el nombre de la persona juridica o fisica en un String.
+	\item \textbf{Razón social:} la razon social de la persona juridica o fisica en un String.
+	\item \textbf{Dirección:} la direccion de la persona juridica o fisica en un String.
+	\item \textbf{CodigoPostal:} el código postal de la persona juridica o fisica en un entero.
+	\item \textbf{Población:} la poblacion de la persona juridica o fisica en un entero.
+	\item \textbf{Provincia:} la provincia de la persona juridica o fisica en un entero.
+\end{itemize}
+
+
+\section{Diseño del sistema de visualización}
+En el diseño del sistema de visualización se ha tenido en cuenta los datos que se podían conseguir y de que manera representarlos. Teniendo en cuenta el diseño de la base de datos y los datos que se van a almacenar en esta se ha decidido implementar varios gráficos en los que se puede mostrar la mayoría de los datos alojados en la base de datos.\\
+
+Los diseños elegidos para mostrar estos datos serian los siguientes:
+
+\begin{itemize}
+	\item \textbf{Sunburst o diagrama circular:} en este gráfico (ver figura 9.2) se muestra un diagrama circular en el que se van clusterizando los datos a medida que vas adentrándote en el. Gracias a este gráfico se pueden analizar sectores mas pequeños de las donaciones y ver la agrupación de diferentes sectores de donantes.
+	\figuraSinMarco{0.6}{imgs/sunburst.png}{Diagrama circular}{queso}{}
+	\item \textbf{Fechas:} en este gráfico (ver figura 9.3) se muestra un calendario en el que se marcan los días con diferentes colores. Gracias a este gráfico se pueden ver los periodos en los que mas y menos se dona.
+	\figuraSinMarco{0.6}{imgs/dategraph.png}{Diagrama de fechas}{fechas}{}
+	\item \textbf{Mapa:} en este gráfico se muestra un mapa de España en el que se marcan las zonas en las que ha habido donaciones. Gracias a este gráfico es muy fácil visualizar como es cada zona y que las personas vean en que tipo de comunidad viven.
+	\figuraSinMarco{0.6}{imgs/sunburst.png}{Diagrama circular}{arquitectura}{}
+\end{itemize} 
+
+El sistema de visualización de datos se ha planteado para que ejerza la minima carga al sistema, por lo que se plantea con una librería de visualización para la creación de infogramas interactivos y archivos JSON para poblarla, de manera que la tarea de formatear los datos para integrarlos en la librería será mínima.
 

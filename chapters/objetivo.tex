@@ -6,14 +6,47 @@ El principal objetivo de este proyecto es crear un widget solidario que se pueda
 Otro objetivo sería el de crear el servidor con la base de datos para alojar los datos de las donaciones realizadas mediante el widget. Este servidor seria accesible para las personas de Alboan que quisieran consultar los datos de las donaciones o ver las gráficas relacionadas con esto.
 
 \subsection{Alcance del proyecto}
+Teniendo en cuenta los objetivos citado anteriormente la Colmena deberá cumplir con las siguientes funcionalidades:
+
+\begin{itemize}
+	\item Una página web responsiva que informe sobre todo del proyecto Colmena pero que también tenga información sobre la ONG y que tenga algún enlace para redirigir a esta.
+	\item Un widget que permita hacer micro donaciones a los proyectos de Alboan y que informe sobre el proyecto al que va destinado el dinero.
+	\item Una base de datos en la que almacenar las donaciones y los datos de los donantes.
+	\item Una herramienta con la que poder dispensar certificados de donación a las personas que han aportado con los proyectos.
+	\item Una herramienta para poder personalizar el widget y generarlo automáticamente.
+	\item Un servidor en el que centralizar todas las funcionalidades y rutas de la solución. Además el servidor será capaz de ofrecer una API para aplicaciones futuras que quieran añadirse a la solución.
+	\item Un sistema de visualización interactivo en el que poder analizar los datos obtenidos desde la aplicación y sacar conclusiones de ellos.
+\end{itemize}
+
+El proyecto no se encargará de hacer llegar el dinero de las donaciones, desde los donantes hasta la ONG, sino que hará de puente contabilizando y manteniendo un registro de estas para que finalmente el comercio online pueda hacer llegar este dinero a la entidad.
 
 \subsection{Producto final}
+El producto final se compone de varios elementos listados a continuación:\\
+
+El elemento visual del proyecto lo formarían \textbf{la página web y el widget}. Estos dos elementos permitirán a los usuarios del sistema informarse de los proyectos que la ONG realiza, contactar con el soporte del proyecto o hacer uso de las funcionalidades que ofrecen, como por ejemplo recibir un certificado de donación o hacer una donación a uno de los proyectos. El widget puede estar alojado en cualquier comercio online. Estos dos elementos están estrictamente ligados a el servidor del proyecto que es el que les permite implementar todas sus funcionalidades.\\
+
+El elemento central del proyecto esta formado por \textbf{el servidor y la base de datos}. Estos dos elementos permiten desarrollar toda la funcionalidad del sistema ya que ofrecen un sistema de enrutado para la parte visual y toda la funcionalidad que deban implementar sus elementos. Por otra parte, este elemento ofrecerá una API en la que se ofrecen diferentes funcionalidades como consultas a la base de datos, siempre con cierta privacidad hacia los datos sensibles.\\
+
+El elemento final del proyecto consta del \textbf{sistema de visualización} de los datos. Gracias a este sistema se podrán visualizar los datos de manera interactiva y permitir a los empleados de Alboan hacer reflexiones sobre sus proyectos o los diferentes sectores de la población que les apoya en diferente medida. Por otra parte, también permitirá a los donantes ver como es la sociedad que les rodea y hacer un análisis de ella.
 
 \section{Descripción de realización}
 
 \subsection{Método de desarrollo}
 
 \subsection{Productos intermedios}
+Gracias a la metodología que se va a utilizar es muy fácil generar productos intermedios. Durante el proceso de desarrollo del proyecto se crearán varios prototipos/mockups del widget y de la página web. Al final de cada sprint se hará una revisión del trabajo que se ha realizado, esto será posible gracias al tablón Trello en el que se podrán ver las tareas realizadas. Para definir los productos intermedios que se van a generar se procede a listarlos a continuación:
+
+\begin{itemize}
+	\item Documento sobre las tecnologías a usar
+	\item Documento de seguimiento de las tareas realizadas
+	\item Varios prototipos de la página web
+	\item Varios prototipos del widget
+	\item Manual de usuario para los técnicos que mantendrán el proyecto
+	\item Documento de conclusiones sobre las donaciones realizadas
+\end{itemize}
+
+Gracias a estos productos intermedios se podrá mantener un seguimiento del proyecto y tener una mejor estimación de las tareas y los tiempos necesarios para estas.
+
 
 \subsection{Tareas principales}
 
@@ -22,3 +55,23 @@ Otro objetivo sería el de crear el servidor con la base de datos para alojar lo
 \subsection{Esquema organizativo}
 
 \subsection{Plan de recursos humanos}
+
+\section{Condiciones de ejecución}
+
+\subsection{Entorno de trabajo}
+
+\subsection{Control de cambios}
+
+\subsection{Recepción de productos}
+
+\section{Planificación}
+
+\subsection{Diagrama de precedencias}
+
+\subsection{Plan de trabajo}
+
+\subsection{Diagrama de Gantt}
+
+\subsection{Estimación de cargas de trabajo}
+
+\section{Presupuesto}

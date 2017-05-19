@@ -5,7 +5,7 @@
 %\PassOptionsToPackage{hyperref}{draft}
 }
 \ProcessOptions
-\LoadClass[10pt,a4paper,twoside]{scrbook}
+\LoadClass[11pt,a4paper,twoside]{scrbook}
 %\RequirePackage[automark,nouppercase]{scrpage2}
 \RequirePackage[automark,markuppercase]{scrpage2}
 \RequirePackage[utf8]{inputenc}

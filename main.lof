@@ -1,24 +1,15 @@
 \select@language {spanish}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Logo de Alboan}}{3}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Ejercicio de cuentas}}{5}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Infraestructura de Colmena}}{9}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Widget Colmena}}{10}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Proceso scrum}}{13}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Tabl\IeC {\'o}n Trello}}{14}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Gr\IeC {\'a}fico de la interacci\IeC {\'o}n en el proyecto}}{18}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Gr\IeC {\'a}fico del equipo de proyecto}}{19}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Lista de tareas con su coste en horas}}{21}
-\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Diagrama Gantt}}{23}
+\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Ejercicio de cuentas de Alboan}}{2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Diagrama de la gram\IeC {\'a}tica de un objeto JSON}}{30}
-\contentsline {figure}{\numberline {\relax 8.2}{\ignorespaces Ejemplo de un JSON}}{31}
-\contentsline {figure}{\numberline {\relax 8.3}{\ignorespaces Scss y css compilado respectivamente}}{32}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 9.1}{\ignorespaces Arquitectura del proyecto}}{34}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Diagrama de la gram\IeC {\'a}tica de un objeto JSON}}{15}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Ejemplo de un JSON}}{15}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Scss y css compilado respectivamente}}{16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Arquitectura del proyecto}}{20}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Diagrama circular}}{24}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Diagrama de fechas}}{24}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Diagrama circular}}{24}
+\addvspace {10\p@ }
