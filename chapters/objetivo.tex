@@ -1,4 +1,35 @@
+En este capitulo se hablará de como se plantea el proyecto a la hora de ser desarrollado. Es capítulo en el que se marcan los objetivos y la visión que se tiene del proyecto antes de comenzar a desarrollarlo. 
+
+\section{Demandante del proyecto}
+En esta sección se hablará el demandante del proyecto, en este caso es la ONG Alboan.
+
+\subsection{Alboan}
+
+La actividad de Alboan comenzó en 1994, asumiendo las iniciativas de voluntariado
+internacional que ya estaban en marcha, pero fue en 1996 cuando se configuró
+jurídicamente bajo la figura de Fundación. Es la ONG promovida por la Compañía de Jesús en la Provincia de Loyola (País Vasco y Navarra). El nombre, en euskera, Alboan, quiere reflejar el arraigo a la cultura de la tierra vasca y el espíritu de la entidad: estar al lado de las personas más excluidas, junto a organizaciones y centros educativos.\\
+
+Su logo (Figura \ref{logo}) visibiliza  el rol de bisagra y puente que quería jugar la institución para poner en relación dos mundos que en realidad son uno solo. Su misión: ser plataforma de encuentro de personas y organizaciones de aquí y allá que quisieran comprometerse en la construcción de un mundo mejor.\\
+
+Hoy Alboan cuenta con 7000 personas entre contratados, voluntarios y entidades que le permiten apoyar y acompañar a más de 200 proyectos llevados a cabo por 105 organizaciones
+aliadas que impactan directamente en las vidas de más de 600.000 personas en todo
+el mundo.
+
+\figuraSinMarco{0.5}{imgs/alboan.jpg}{Logo de Alboan}{logo}{}
+
+Trabaja por la construcción de una ciudadanía global que denuncie las injusticias que provocan desigualdad en el mundo, construya una cultura que promueva el bien común y transforme las estructuras generadoras de pobreza a nivel local y global. Para lograrlo, se une en red con personas y grupos de todo el mundo.\\
+
+La colaboración de Alboan se centra en 4 temáticas principales en las que enmarca todos sus proyectos y labores de ayuda: Educación de calidad, Desarrollo económico-productivo sostenible y equitativo, Acción humanitaria en crisis recurrentes y Democracia a favor de las personas excluidas.\\
+
+Todas las actividades que realiza la ONG incluyen 3 ejes transversales que otorgan a los proyectos el carisma que Alboan quiere dar:
+\begin{itemize}
+	\item La espiritualidad como dimensión en el horizonte de desarrollo humano.
+	\item El reconocimiento de las desigualdades entre mujeres y hombres y el compromiso con la equidad de género.
+	\item La participación ciudadana para la incidencia social y política.
+\end{itemize}
+
 \section{Definición del proyecto}
+En esta sección se entrará a definir lo que va a ser el proyecto y los limites en los que se va a desarrollar.
 
 \subsection{Objetivos}
 El principal objetivo de este proyecto es crear un widget solidario que se pueda implantar en cualquier tienda online y crear la página web en la que se va a apoyar y se dará a conocer este widget. La página web también será el portal en el que la gente que ha realizado alguna donación pueda recoger su certificado de donación con el fin de presentarlo en la declaración de la renta.\\
@@ -32,35 +63,163 @@ El elemento final del proyecto consta del \textbf{sistema de visualización} de 
 \section{Descripción de realización}
 
 \subsection{Método de desarrollo}
+El proyecto se ha desarrollado utilizando la metodología ágil Scrum. Esta metodología encaja con el proyecto por el desconocimiento de algunas de las herramientas a utilizar y porque algunos de los requisitos pueden ser cambiantes.\\
+
+Scrum es un proceso en el que se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente, en equipo, y obtener el mejor resultado posible de un proyecto. Estas prácticas se apoyan unas a otras y su selección tiene origen en un estudio de la manera de trabajar de equipos altamente productivos.\\
+
+En Scrum se realizan entregas parciales y regulares del producto final, priorizadas por el beneficio que aportan al receptor del proyecto. Por ello, Scrum está especialmente indicado para proyectos en entornos complejos, donde se necesita obtener resultados pronto, donde los requisitos son cambiantes o poco definidos, donde la innovación, la competitividad, la flexibilidad y la productividad son fundamentales.\\
+
+\figuraSinMarco{0.5}{imgs/scrum.png}{Proceso scrum}{scrum}{}
+
+Las iteraciones o sprints será de 3 semanas cada uno. Al comienzo de los sprints se hará una reunión para pensar cuales deben ser las tareas que deben ir dentro de dicho sprint y al final del mismo se realizará la reunión de revisión en la que se revisará el trabajo realizado y las tareas pendientes. Estas reuniones tendrán unos productos intermedios, los cuales serán explicados más adelante.\\
+
+Para apoyar la metodología elegida se utiliza Trello. Trello es una aplicación online que sirve para organizar tareas online en diferentes tableros. Estos tableros estan compuestos por diferentes columnas por las que ir moviendo las tareas dependiendo de su estado.
+
+\subsection{Tareas principales}
+A continuación se listarán las principales tareas del proyecto, estas posteriormente se desglosaran en tareas mas pequeñas que el equipo de desarrollo pueda desarrollarlas mas agilmente. Estas tareas serán valoradas posteriormente y asignadas con un indicador de prioridad.
+
+\begin{itemize}
+	\item \textbf{Organización}\\
+	Consiste en la planificación y preparación del proyecto. Al comienzo del proyecto habrá que definir los requisitos e historias de usuario y posteriormente en cada reunión al final del sprint y al principio del siguiente habrá que realizar de nuevo esta labor. 
+	\item \textbf{Seguimiento}\\
+	Seguimiento y control del desarrollo del proyecto con la finalidad de detectar los posibles errores tanto en la lógica como en la parte visual del sistema. El principal seguimiento viene dado por las reuniones que se realizan y por el cumplimiento de las historias de usuario.	
+	\item \textbf{Análisis de tecnologías a usar}\\
+	Esta tarea consiste en analizar las posibles tecnologias que puedan cumplir con las funciones que se requieren en el proyecto. En esta tarea habrá que decidir cuales seran las tecnologias a utilizar para los diferentes elementos ya que el proyecto consta de varios y diferentes entre si. La decision tiene que estar basada en unos argumentos fundamentados. En principio no existe ningun requerimiento sobre las tecnologias por parte del demandante del proyecto.
+	\item \textbf{Arquitectura del proyecto}\smallbreak
+	Esta tarea consiste en definir la arquitectura del proyecto. Esto implica el diseño del proyecto en su totalidad y como va a ser la comunicacion entre las diferentes partes.
+	\item \textbf{Creación de la parte servidora y la base de datos}\smallbreak
+	Esta tarea consiste en crear la parte servidora del proyecto. En ella estará implementada toda la lógica del sistema y habrá que definir las conexiones con los diferentes elementos del sistema. En esta tarea, tambien, habra crear la base de datos y conectarla con el servidor para permitir la insercion y busqueda de los datos en ella.
+	\item \textbf{Creación de la página web y el widget}\smallbreak
+	Esta tarea consiste en la creacion y el diseño de la página web y el widget. En esta tarea principalmente se creará el diseño visual de ambos elementos y posteriormente se haran las conexiones con el servidor para permitirles implementar la parte lógica.
+	\item \textbf{Creación del sistema de visualización de datos}\smallbreak
+	Esta tarea consiste en la creacion de un sistema en el que poder hacer una visualizacion interactiva de los datos. Tambien habra que realizar el formateo de la informacion que llegue desde la base de datos, para que la visualizacion este correcta.
+	\item \textbf{Cierre del proyecto}\smallbreak
+	Esta tarea consiste en entregar a la ONG el sistema completo y prestarles apoyo en la implementacion del mismo. En el momento en el que Alboan haya implementado el sistema Colmena en su servidor, el proyecto estará terminado.
+\end{itemize}
+
+Finalmente se procede a listar las diferentes tareas, más especificas, que se van a llevar a cabo en los sprints marcados. Esta información es orientativa, ya que sabemos, que en la metodologia scrum los sprints pueden ser cambiantes.
+
+\begin{itemize}
+	\item T1 - Sprint 1
+	\subitem T1.1 - Investigación sobre las tecnologías a utilizar
+	\subitem T1.2 - Redactar el documento sobre las tecnologías a utilizar
+	\subitem T1.3 - Instalar las herramientas de desarrollo
+	\subitem T1.4 - Formación en las diferentes tecnologías a utilizar
+	\subitem T1.5 - Diseñar la arquitectura del proyecto
+	\item T2 - Sprint 2
+	\subitem T2.1 - Crear el primer diseño de la página web
+	\subitem T2.2 - Crear el primer diseño del widget
+	\subitem T2.3 -	Desarrollar la lógica del servidor
+	\subitem T2.4 - Pruebas servidor
+	\subitem T2.5 - Configurar la base de datos
+	\subitem T2.6 - Pruebas base de datos
+	\item T3 - Sprint 3
+	\subitem T3.1 - Desarrollar la lógica de la página web
+	\subitem T3.2 - Desarrollar la lógica del widget
+	\subitem T3.3 - Consolidar el diseño de la página web
+	\subitem T3.4 - Pruebas de la página web
+	\subitem T3.5 - Consolidar el diseño del widget
+	\subitem T3.6 - Pruebas del widget
+	\subitem T3.7 - Crear manual de usuario para los técnicos de mantenimiento
+	\item T4 - Sprint 4
+	\subitem T4.1 - Investigar los frameworks de visualización de datos
+	\subitem T4.2 - Configurar el frameworks de visualización de datos
+	\subitem T4.3 - Pruebas sobre el frameworks de visualización de datos
+	\subitem T4.4 - Analizar los datos
+	\subitem T4.5 - Extraer las estadísticas de los datos
+	
+\end{itemize}
+
 
 \subsection{Productos intermedios}
 Gracias a la metodología que se va a utilizar es muy fácil generar productos intermedios. Durante el proceso de desarrollo del proyecto se crearán varios prototipos/mockups del widget y de la página web. Al final de cada sprint se hará una revisión del trabajo que se ha realizado, esto será posible gracias al tablón Trello en el que se podrán ver las tareas realizadas. Para definir los productos intermedios que se van a generar se procede a listarlos a continuación:
 
 \begin{itemize}
-	\item Documento sobre las tecnologías a usar
-	\item Documento de seguimiento de las tareas realizadas
+	\item Documento sobre el estudio de las tecnologías a utilizar y conclusiones.
+	\item Documento de analisis sobre la arquitectura y especificaciones del proyecto.
 	\item Varios prototipos de la página web
 	\item Varios prototipos del widget
+	\item Documento de seguimiento de las tareas realizadas
 	\item Manual de usuario para los técnicos que mantendrán el proyecto
 	\item Documento de conclusiones sobre las donaciones realizadas
 \end{itemize}
 
 Gracias a estos productos intermedios se podrá mantener un seguimiento del proyecto y tener una mejor estimación de las tareas y los tiempos necesarios para estas.
 
-
-\subsection{Tareas principales}
-
 \section{Organización y equipo}
 
 \subsection{Esquema organizativo}
 
+\begin{itemize}
+	\item \textbf{Product Owner:} Este rol será representado por una persona de Alboan. Sus principales funciones son las siguientes:
+	\begin{itemize}
+		\item Ser el representante de todas las personas interesadas en los resultados del proyecto
+		\item Definir los objetivos del producto o proyecto.
+		\item Colaborar con el equipo para planificar, revisar y dar detalle a los objetivos de cada iteración.
+	\end{itemize}
+	\item \textbf{Scrum master:} No se debe confundir con el jefe de proyecto. Sus principales tareas son:
+	\begin{itemize}
+		\item Facilitar las reuniones de Scrum
+		\item Proteger y aislar al equipo de interrupciones externas
+		\item Quitar los impedimentos que el equipo tiene en su camino
+	\end{itemize}
+	\item \textbf{Equipo de desarrollo:} Compuesto por los profesionales que desarrollarán el proyecto. Su principal función es desarrollar el proyecto y estas son otras de sus funciones:
+	\begin{itemize}
+		\item Equipo auto organizado.
+		\item Equipo multidisciplinar, capacidad de desarrollar diferentes tareas.
+		\item Equipo estable durante el proyecto y establecidos en la misma localización física.
+	\end{itemize}
+	
+\end{itemize}
+
+En la figura \ref{equiposcrum} se puede ver cómo será la interlocución entre los miembros del equipo. El Scrum master, representado por Rubén Sánchez, será el encargado de interaccionar con el Product Owner, que estará representado por una persona de Alboan. Por último, el equipo de desarrollo incluirá a las personas que desarrollen el proyecto, las cuales podremos ver más adelante.
+
+\figura{0.8}{imgs/equiposcrum.png}{Gráfico de la interacción en el proyecto}{equiposcrum}{}
+
 \subsection{Plan de recursos humanos}
+En este apartado se describirá al equipo de proyecto que será el encargado de desarrollar el producto y los diferentes perfiles necesarios para ello.
+
+\begin{itemize}
+	\item \textbf{Jefe de proyecto:} Es el encargado de controlar que el proyecto se desarrolle correctamente y de garantizar los tiempos de desarrollo y la calidad del mismo. También se encargará de los aspectos de gestión del proyecto.
+	\item \textbf{Diseñador:} Es el encargado de diseñar la interfaz de la página web y del widget.
+	\item \textbf{Analista de datos:} El encargado de analizar el sistema en materia de datos, para otorgar una solución consistente y correcta. Por otra parte es el encargado de analizar los datos que se extraen del proyecto y de crear informes interactivos y conclusiones de ellos.
+	\item \textbf{Arquitecto web:} Es el encargado de diseñar y desarrollar la arquitectura principal del proyecto. También se encarga de configurar las herramientas que vayan a utilizar los demás para asegurar su correcto funcionamiento.
+	\item \textbf{Programador:} Es el encargado de desarrollar los métodos que el arquitecto haya establecido.
+\end{itemize}
+
+En la figura \ref{equipo} se ve la organización en el equipo de proyecto. Alboan está como cliente externo a Deusto Tech. Dentro de Deusto Tech tenemos a Pablo García, el cual será el director del proyecto desde la empresa, y al equipo de la Colmena. Dentro del equipo de la Colmena se han separado los roles del Jefe de proyecto y del equipo de proyecto. Esto se ha hecho para ver la diferenciación en cuanto al plan de recursos humanos y para ver quien tiene la comunicación con el cliente, aunque en el proyecto los haya representado la misma persona.
+
+\figura{0.7}{imgs/equipo.png}{Gráfico del equipo de proyecto}{equipo}{}
 
 \section{Condiciones de ejecución}
 
 \subsection{Entorno de trabajo}
+El desarrollo tendrá lugar en DeustoTech, sin un departamento de referencia.\\
+
+El horario de trabajo será de 4 horas diarias.\\
+
+DeustoTech y Alboan ofrecerán todos los medios necesarios para el buen desarrollo del proyecto. En caso de contar con un ordenador persona, se utilizará este.
+
+\subsubsection{Hardware}
+Este es el hardware que se utilizará para desarrollar el proyecto:
+\begin{itemize}
+	\item Lenovo ThinkPad X220
+	\item Monitor Acer AL1714 (Monitor secundario)
+\end{itemize}
+
+\subsubsection{Software}
+Todo el software utilizado en el proyecto es gratuito. Este es el software utilizado para desarrollar el proyecto:
+\begin{itemize}
+	\item Atom
+	\item Git
+	\item Brackets
+\end{itemize}
 
 \subsection{Control de cambios}
+El seguimiento del proyecto se hará desde el tablón de Trello. En el tablón se registran los cambios que se generan y se generan notificaciones para las personas involucradas en la tarea que ha sufrido cambios. Finalmente esos cambios se tendrán en cuenta en las reuniones de final de sprint y se podrán comentar las diferentes opciones al cambio.\\
+
+En cuanto a reuniones de seguimiento del proyecto, tendremos una reunión cada viernes en la que el equipo de proyecto hablará con el supervisor de Deusto Tech. En esa reunión se podrán ver los avances y problemas que hay cada semana y se pensarán diferentes soluciones para ellos. Estas reuniones también servirían por si se necesitará algo de Deusto Tech.
+
 
 \subsection{Recepción de productos}
 
