@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.14)  20 MAY 2017 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.14)  20 MAY 2017 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1181,10 +1181,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
  []
 
 )
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
- [32] (./main.bbl) [33
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+ [32]
+Cap\'{\i }tulo 7.
+(./chapters/pruebas.tex) [33
 
+] [34
+
+]
+Cap\'{\i }tulo 8.
+(./chapters/manual.tex) [35] [36
+
+]
+Cap\'{\i }tulo 9.
+(./chapters/conclusiones.tex) [37] [38
+
+] (./main.bbl) [39
 
 ] (./main.aux
 LaTeX Info: Redefining \. on input line 7.
@@ -1198,10 +1211,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7316 strings out of 494958
- 105593 string characters out of 6179386
+ 7334 strings out of 494958
+ 105974 string characters out of 6179386
  225125 words of memory out of 5000000
- 10344 multiletter control sequences out of 15000+600000
+ 10353 multiletter control sequences out of 15000+600000
  28295 words of font info for 70 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  47i,9n,46p,969b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1219,10 +1232,10 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (45 pages, 489879 bytes).
+Output written on main.pdf (51 pages, 492089 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 251 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
