@@ -64,7 +64,6 @@
         extendedchars=true,
         showspaces=false,
         showstringspaces=false,
-        numbers=left,
         numberstyle=\tiny,
         breaklines=true,
         backgroundcolor=\color{hellgelb},

@@ -79,11 +79,11 @@
 \contentsline {subsection}{\numberline {6.2.3}Git}{32}
 \contentsline {section}{\numberline {6.3}Implementaci\IeC {\'o}n del servidor}{32}
 \contentsline {section}{\numberline {6.4}Implementaci\IeC {\'o}n de la p\IeC {\'a}gina web}{32}
-\contentsline {subsection}{\numberline {6.4.1}Creaci\IeC {\'o}n del sistema de expedici\IeC {\'o}n de certificados}{32}
-\contentsline {subsection}{\numberline {6.4.2}Creaci\IeC {\'o}n del }{32}
-\contentsline {section}{\numberline {6.5}Implementaci\IeC {\'o}n del widget}{32}
-\contentsline {section}{\numberline {6.6}Implementaci\IeC {\'o}n de la base de datos}{32}
-\contentsline {chapter}{\numberline {7}Plan de pruebas}{33}
-\contentsline {chapter}{\numberline {8}Manual de usuario}{35}
-\contentsline {chapter}{\numberline {9}Conclusiones y lineas futuras}{37}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{39}
+\contentsline {subsection}{\numberline {6.4.1}Codificaci\IeC {\'o}n del sistema de certificados de donaci\IeC {\'o}n}{33}
+\contentsline {subsection}{\numberline {6.4.2}Codificaci\IeC {\'o}n del asistente de creaci\IeC {\'o}n de widgets}{34}
+\contentsline {section}{\numberline {6.5}Implementaci\IeC {\'o}n del widget}{35}
+\contentsline {section}{\numberline {6.6}Implementaci\IeC {\'o}n del sistema de visualizaci\IeC {\'o}n}{35}
+\contentsline {chapter}{\numberline {7}Plan de pruebas}{37}
+\contentsline {chapter}{\numberline {8}Manual de usuario}{39}
+\contentsline {chapter}{\numberline {9}Conclusiones y lineas futuras}{41}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{43}
