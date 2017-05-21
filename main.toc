@@ -46,19 +46,19 @@
 \contentsline {subsubsection}{Funcionamiento}{19}
 \contentsline {subsubsection}{Raz\IeC {\'o}n de uso}{19}
 \contentsline {subsection}{\numberline {4.1.5}Mongojs}{19}
-\contentsline {subsubsection}{Funcionamiento}{19}
+\contentsline {subsubsection}{Funcionamiento}{20}
 \contentsline {subsubsection}{Raz\IeC {\'o}n de uso}{20}
 \contentsline {subsection}{\numberline {4.1.6}Pdffiller}{20}
 \contentsline {subsubsection}{Raz\IeC {\'o}n de uso}{20}
 \contentsline {section}{\numberline {4.2}MongoDB}{20}
-\contentsline {subsection}{\numberline {4.2.1}Raz\IeC {\'o}n de uso}{20}
+\contentsline {subsection}{\numberline {4.2.1}Raz\IeC {\'o}n de uso}{21}
 \contentsline {section}{\numberline {4.3}JSON}{21}
 \contentsline {subsection}{\numberline {4.3.1}Funcionamiento}{21}
 \contentsline {section}{\numberline {4.4}Sass (CSS3)}{21}
 \contentsline {subsection}{\numberline {4.4.1}Funcionamiento}{22}
 \contentsline {subsection}{\numberline {4.4.2}Raz\IeC {\'o}n de uso}{23}
 \contentsline {section}{\numberline {4.5}D3.js}{23}
-\contentsline {subsection}{\numberline {4.5.1}Raz\IeC {\'o}n de uso}{23}
+\contentsline {subsection}{\numberline {4.5.1}Raz\IeC {\'o}n de uso}{24}
 \contentsline {chapter}{\numberline {5}Especificaci\IeC {\'o}n del dise\IeC {\~n}o}{25}
 \contentsline {section}{\numberline {5.1}Visi\IeC {\'o}n general}{25}
 \contentsline {section}{\numberline {5.2}Herramientas utilizadas}{25}
@@ -78,12 +78,19 @@
 \contentsline {subsection}{\numberline {6.2.2}Brackets}{31}
 \contentsline {subsection}{\numberline {6.2.3}Git}{32}
 \contentsline {section}{\numberline {6.3}Implementaci\IeC {\'o}n del servidor}{32}
-\contentsline {section}{\numberline {6.4}Implementaci\IeC {\'o}n de la p\IeC {\'a}gina web}{32}
-\contentsline {subsection}{\numberline {6.4.1}Codificaci\IeC {\'o}n del sistema de certificados de donaci\IeC {\'o}n}{33}
-\contentsline {subsection}{\numberline {6.4.2}Codificaci\IeC {\'o}n del asistente de creaci\IeC {\'o}n de widgets}{34}
-\contentsline {section}{\numberline {6.5}Implementaci\IeC {\'o}n del widget}{35}
-\contentsline {section}{\numberline {6.6}Implementaci\IeC {\'o}n del sistema de visualizaci\IeC {\'o}n}{35}
-\contentsline {chapter}{\numberline {7}Plan de pruebas}{37}
-\contentsline {chapter}{\numberline {8}Manual de usuario}{39}
-\contentsline {chapter}{\numberline {9}Conclusiones y lineas futuras}{41}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{43}
+\contentsline {subsection}{\numberline {6.3.1}Como a\IeC {\~n}adir una nueva ruta}{32}
+\contentsline {subsection}{\numberline {6.3.2}Conexi\IeC {\'o}n con la base de datos}{32}
+\contentsline {subsection}{\numberline {6.3.3}Configuracion de Nodemailer}{33}
+\contentsline {subsection}{\numberline {6.3.4}Codificacion de la funci\IeC {\'o}n de recepci\IeC {\'o}n de donaciones}{33}
+\contentsline {subsection}{\numberline {6.3.5}Codificacion de la creacion de certificados}{33}
+\contentsline {subsection}{\numberline {6.3.6}Codificacion del sistema de guardado de widgets}{34}
+\contentsline {subsection}{\numberline {6.3.7}Como utilizar la API para consultar datos}{34}
+\contentsline {section}{\numberline {6.4}Implementaci\IeC {\'o}n de la p\IeC {\'a}gina web}{35}
+\contentsline {subsection}{\numberline {6.4.1}Codificaci\IeC {\'o}n del sistema de expedici\IeC {\'o}n de certificados de donaci\IeC {\'o}n}{36}
+\contentsline {subsection}{\numberline {6.4.2}Codificaci\IeC {\'o}n del asistente de creaci\IeC {\'o}n de widgets}{37}
+\contentsline {section}{\numberline {6.5}Implementaci\IeC {\'o}n del widget}{38}
+\contentsline {section}{\numberline {6.6}Implementaci\IeC {\'o}n del sistema de visualizaci\IeC {\'o}n}{39}
+\contentsline {chapter}{\numberline {7}Plan de pruebas}{41}
+\contentsline {chapter}{\numberline {8}Manual de usuario}{43}
+\contentsline {chapter}{\numberline {9}Conclusiones y lineas futuras}{45}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{47}

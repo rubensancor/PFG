@@ -1,0 +1,3 @@
+router.get('/date/:year/:month', function(req, res) {
+	...
+});

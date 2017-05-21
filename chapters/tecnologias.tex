@@ -24,36 +24,20 @@ Entre las ventajas que ofrece Node.js se encuentran las siguientes:
 \subsection{Funcionamiento}
 En Node.js es muy sencillo crear aplicaciones nuevas que actuen en la parte servidora de una aplicación. Gracias a npm, Node.js es muy polivalente, pero a continuación se mostrará un ejemplo de un servidor HTTP:
 
-\begin{codigo}
-http.createServer(function (request, response) \{
-	response.writeHead(200, {'Content-Type': 'text/plain'});
-	response.end('Hello World');
-\}).listen(8081);
-console.log('Server running at http://127.0.0.1:8081/');
-\end{codigo}
+\codigofuente{Java}{Ejemplo de un servidor HTTP en Node.js}{src/nodejs.js}
 
 En este ejemplo se crea un servidor HTTP en el puerto 8081 de la maquina local. Una vez se entra al puerto 8081 de la maquina local, el servidor creara una respuesta en texto plano y la enviará al navegador, que mostrará por pantalla el mensaje.\\
 
 Node.js funciona de una manera muy diferente dependiendo de los paquetes utilizados para el desarrollo de la aplicación por lo que a continuación explicare los paquetes utilizados para el desarrollo de este proyecto y como es el funcionamiento de cada uno de estos:
 
+
 \subsection{Express}
 Express es un framework web minimalista y flexible para el desarrollo de soluciones web en node.js. Express además aplica una fina capa con las características fundamentales de las aplicaciones web sobre la base de node.js permitiendo así mantener todas las funcionalidades que ofrece Node.js. Finalmente, Express ofrece una amplia y robusta API para hacer uso de todas las funcionalidades y características que ofrece.
 
 \subsubsection{Funcionamiento}
-Express no tiene una estructura de proyecto definida por los desarrolladores o comunidad, en cambio, tanto en la documentación como en numerosos sitios ofrecen un sistema de carpetas para tener el proyecto ordenado y las rutas definidas.
+Express no tiene una estructura de proyecto definida por los desarrolladores o comunidad, en cambio, tanto en la documentación como en numerosos sitios ofrecen un sistema de carpetas para tener el proyecto ordenado y las rutas definidas.\\
 
-\begin{codigo}
-	project/
-	|--	node\_modules/
-	|--	public/
-			 |--	images/
-			 |--	css/
-			 |--	javascript/
-	|--	routes/
-	|--	views/
-	|--	app.js
-	|--	package.json
-\end{codigo}
+\codigofuente{HTML}{Estructura de paquetes tipo de un proyecto express}{src/paquetes.html}
 
 \begin{itemize}
 	\item \textbf{Node\_modules:} en esta carpeta irán incluidas todas las dependencias del proyecto una vez descargadas automáticamente por npm.
@@ -79,18 +63,9 @@ Se ha elegido este framework ante otros disponibles para Node.js por varias razo
 Nodemailer es un módulo para Node.js que permite enviar emails. Este módulo esta securizado de manera que los mensajes que envía los hace de manera segura. Permite adjuntar elementos a los mensajes y no depende de ningún otro paquete, lo que le convierte en un paquete muy completo.
 
 \subsubsection{Funcionamiento}
-Nodemailer es muy sencillo de usar, solo hay que definir el mensaje con los campos y archivos adjuntos que quieras añadir y también habrá que definir el transporter que sera el encargado de enviar el mensaje. En este caso no esta añadido la configuración del transporter.
+Nodemailer es muy sencillo de usar, solo hay que definir el mensaje con los campos y archivos adjuntos que quieras añadir y también habrá que definir el transporter que sera el encargado de enviar el mensaje. En este caso no esta añadido la configuración del transporter.\\
 
-\begin{codigo}
-	var message = \{
-		from: 'sender@server.com',
-		to: 'receiver@sender.com',
-		subject: 'Message title',
-		text: 'Plaintext version of the message',
-		html: '<p>HTML version of the message</p>'
-	\};
-	transporter.sendMail(data);
-\end{codigo}
+\codigofuente{Java}{Estructura de un mensaje en Nodemailer}{src/mensaje.js}
 
 \subsubsection{Razón de uso}
 Se ha utilizado este paquete para enviar los mails por su sencillez, el gran recorrido que tiene en esta materia, ya que fue creado en 2010 y por su completa documentación.
@@ -99,19 +74,13 @@ Se ha utilizado este paquete para enviar los mails por su sencillez, el gran rec
 Mongojs es un paquete para Node.js que permite la conexión con bases de datos MongoDB. Este paquete intenta emular completamente la comunicación directa con la base de datos por lo que su API se asemeja mucho a la de MongoDB.
 
 \subsubsection{Funcionamiento}
-Mongojs es muy sencillo de usar, con la siguiente linea de código, conectaremos con una base de datos MongoDB que este en un servidor remoto y si añadimos la variable mycollection, conectaremos directamente con la colección dentro de la base de datos elegida. 
+Mongojs es muy sencillo de usar, con la siguiente linea de código, conectaremos con una base de datos MongoDB que este en un servidor remoto y si añadimos la variable mycollection, conectaremos directamente con la colección dentro de la base de datos elegida. \\
 
-\begin{codigo}
-	var db = mongojs('example.com/mydb', ['mycollection'])
-\end{codigo}
+\codigofuente{Java}{Ejemplo de conexion con una base de datos MongoDB}{src/conexionmongo.js}
 
-A continuación se muestra un ejemplo en el que se busca en la base de datos todos los documentos en los que name=Jhon. Esta función devuelve los documentos que cumplan la condición y posteriormente se pueden tratar dentro de la función.
+A continuación se muestra un ejemplo en el que se busca en la base de datos todos los documentos en los que name=Jhon. Esta función devuelve los documentos que cumplan la condición y posteriormente se pueden tratar dentro de la función.\\
 
-\begin{codigo}
-	  db.mycollection.find(\{ 'Name':'Jhon'\}function (err, docs) \{
-	  	// Insert code here 
-	  \});
-\end{codigo}
+\codigofuente{Java}{Ejemplo de una busqueda con mongojs}{src/busquedamongo.js}
 
 \subsubsection{Razón de uso}
 Se ha utilizado este paquete para conectar con la base de datos por la facilidad con la que conecta con la base de datos y porque emula lo máximo posible la API de mongoDB haciendo su uso muy fácil si ya has utilizado mongoDB con anterioridad.
@@ -172,12 +141,10 @@ Las ventajas que ofrece este metalenguaje son las siguientes:
 \end{itemize}
 
 \subsection{Funcionamiento}
+En los siguientes listados podemos ver las diferencias y el uso de SCSS. Lo primero que podemos ver son las variables que declara, posteriormente, en la primera clase, vemos que no tiene corchetes ni las definiciones acaban con punto y coma. Tambien podemos ver como utiliza el metodo \textit{darken} que oscurece el color. Por ultimo podemos ver como divide el margen definido entre 2 para que se reduzca en la segunda clase.\\
 
-\begin{codigo}
-	codigo scss
-\end{codigo}
-
-\figuraSinMarco{0.7}{imgs/scss.png}{Scss y css compilado respectivamente}{scss}{}
+\codigofuente{HTML}{Código SCSS}{src/scss.html}
+\codigofuente{HTML}{Código CSS compilado}{src/css.html}
 
 \subsection{Razón de uso}
 Se ha utilizado este metalenguaje en vez de su competidor más claro, less, por las siguientes razones:

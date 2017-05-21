@@ -1,0 +1,3 @@
+router.get/post/put/delete('/RUTA', function(req, res) {
+	...
+});

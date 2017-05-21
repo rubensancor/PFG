@@ -13,8 +13,60 @@ Brackets es un editor de texto moderno enfocado en el diseño de la parte visual
 Git es un sistema de control de versiones distribuido gratuito y de código abierto que está diseñado para manejar desde pequeños proyectos particulares a proyectos de grandes organizaciones con una gran velocidad y eficiencia. Además es muy fácil de aprender, tiene una excelente documentación y al ser usado por muchísimos desarrolladores tiene una gran comunidad de usuarios dispuestos a resolver cualquier problema.
 
 \section{Implementación del servidor}
+El servidor esta implementado en Node.js con la ayuda de varios paquetes creados por la comunidad. El servidor esta diferenciado en dos archivos diferentes. El archivo \textit{server.js} contiene la configuracion de los paquetes que va a utilizar la aplicacion y el puerto en el que se va a desplegar. El archivo que contiene toda la funcionalidad del sistema es \textit{api.js}, en este archivo estan definidas las rutas y las funciones del proyecto.\\
+
+Lo primero en lo que fijarse al entrar en el archivo \textit{server.js} es en los paquetes que tiene como requerimientos y los que utiliza. Entre los paquetes y usos mas destacables esta el requerimiento del otro archivo mas importante del proyecto, \textit{api.js}, el uso del framework express y la carga de EJS como el motor visual del proyecto. Por otra parte, cabe destacar el puntero (Listado ) que se crea para indicar al sistema donde van a estar alojados todos los recursos públicos del sistema.\\
+
+\codigofuente{Java}{Puntero a la carpeta public}{src/puntero.js}
+
+En el archivo \textit{api.js} se encuentra toda la funcionalidad del servidor separada por las rutas que este ofrece a la página web. En esta seccion se hablará de como se han implementado las diferentes funcionalidades.
+
+\subsection{Como añadir una nueva ruta}
+Para crear una nueva ruta dentro del servidor solo habria que añadir una nueva respuesta a una solicitud de la parte del cliente (Listado ). En el direccionamiento existen 4 tipos de solicitudes desde la parte servidora, estas serian: GET, POST, PUT y DELETE. Posteriormente habria que indicar a que ruta harian esta solicitud, en el codigo marcado con /RUTA. Finalmente se entraria en la funcion en la que se desarrollaria todo el codigo que el programador haya especificado.\\ 
+
+\codigofuente{Java}{Ejemplo de ruta con Express}{src/ruta.js}
+
+\subsection{Conexión con la base de datos}
+
+Lo primero a destacar es la conexión con la base de datos, esta esta implementada con mediante el paquete mongojs. La conexión es muy sencilla (Listado) y al solo tener una colección nos conectamos directamente a ella. La  base de datos al ser MongoDB se despliega en el puerto 27017, en caso de estar desplegada solo habria que cambiar ese dato. El nombre de la base de datos es colmena y la coleccion donaciones.\\
+
+\codigofuente{Java}{Conexión a la base de datos mediante mongojs}{src/mongojs.js}
+
+\subsection{Configuracion de Nodemailer}
+Nodemailer\cite{keylist}, es el paquete que nos permite enviar los mails a las personas que donan. La configuración de este paquete es muy sencilla y nos permite elegir servicio con el que vamos a enviar los mails, en este caso seria Gmail y solo habria que añadir el mail y la contraseña de la cuenta que queramos utilizar.
+
+\codigofuente{Java}{Configuracion de Nodemailer}{src/nodemailer.js}
+
+Las funcionalidades que ofrece el servidor son REST, es decir, esperan a que una peticion entrante para reaccionar y cuando acaban cortan la comunicacion. 
+
+\subsection{Codificacion de la función de recepción de donaciones}
+El sistema sistema de recepcion de donaciones esta codificado de manera que al recibir una solicitud de donacion desde el widget, la funcion, mediante un algoritmo, calcula un id de donacion unico para cada usuario. Posteriormente empaqueta este numero y lo envia a la base de datos junto con los datos de la donación. Por ultimo genera un email con el id de donacion y se lo envia a la persona que ha realizado la compra.\\
+
+El algoritmo que genera los numeros de donación se ha creado utilizando un metodo en el que es practicamente imposible generar un numero igual. El algortimo comienza capturando el tiempo en el que llega la peticion, por lo que este numero solo puede ser igual si la peticion llega en el mismo momento exacto. El numero que se genera tiene 13 cifras. Posteriormente se genera un numero aleatorio entre 0 y 100 y se suma al número obtenido anteriormente. Las posibilidades de generar un número igual solo serian significativas, un 1\%, si la peticion llegase exactamente en el mismo momento.
+
+\codigofuente{Java}{Algoritmo de generacion de numeros de donacion}{src/donacion.js}
+
+\subsection{Codificacion de la creacion de certificados}
+El sistema de creacion de certificados esta apoyado en el paquete pdffiller que permite al sistema completar el formulario de un pdf modelo de un certificado de donacion oficial de la ONG Alboan. \\
+
+En primer lugar el sistema comprueba que la donación no este utiliza consultando en la base de datos por el atributo \textit{usada} del documento. Una vez comprobada que esto no es asi redirecciona al usuario al formulario en el que debe añadir los datos con los que quiere que se genere el formulario.\\
+
+Una vez enviado el formulario el servidor se encarga de rellenar el PDF, enviar el mail con este al usuario y de actualizar la base de datos para que la donacion se marque como usada y se añadan los datos del donante. Todas estas acciones se realizan en conjunto y en caso de haber algun error se paralizará la funcion.
+
+\subsection{Codificacion del sistema de guardado de widgets}
+El sistema de guardado de widgets es muy sencillo ya que desde la página web se generar con un formato fijo. Esta funcion recibe desde la página web el script con los datos que el usuario a establecido y le añade unas funciones fijas que comparten todos los widgets. Una vez creado el widget minimizado, es decir, en una sola linea para ahorrar espacio, se intenta guardar en la carpeta donde estarán alojados todos los widgets. En caso de que el nombre del widgets ya exista, se comunicará al usuario. \\
+
+El nombre que se le aplicará al widget seguirá el siguiente formato: Nombre de la empresa + \_colmena.js. \\
 
 
+\codigofuente{Java}{Codigo del sistema de guardado de widgets}{src/autosave.js}
+
+\subsection{Como utilizar la API para consultar datos}
+El servidor tambien ofrece una API para consultar diferentes datos y hacer nuestras propias estadisticas sin tener que depender de la aplicacion del proyecto. Esta API ofrece los datos en JSON sin formatear y directos de la base de datos. La API estará restringida para los datos sensibles.\\
+
+En el siguiente ejemplo se nos ofrece la posibilidad de entrar en la siguiente ruta: IPSERVIDOR/date/:year/:month. Cambiando \textit{year} y \textit{mont} por el año y el mes que queramos respectivamente, se nos ofrecera un json con todas las donaciones que ha habido ese mes.
+
+\codigofuente{Java}{Ejemplo de ruta de la API}{src/apidatos.js}
 
 \section{Implementación de la página web}
 La página web esta implementada sobre una plantilla de Bootstrap lo que ha permitido que el desarrollo se haga mas agil. En cambio, la plantilla ha sido alterada para que el diseño encaje con el de la ONG, por lo que de la plantilla original solo queda la estructura. Dentro del código de la pagina web tambien se han incluido varias librerias que permiten una experiencia mas inmersiva y con mas funcionalidades. \\
@@ -32,7 +84,7 @@ Dentro de la página web hay varios botones que al pulsarlos despliegan diferent
 
 \codigofuente{HTML}{Código de una ventana Modal}{src/modal.html}
 
-\subsection{Codificación del sistema de certificados de donación}
+\subsection{Codificación del sistema de expedición de certificados de donación}
 El sistema de expedición de certificados de donación se basa en un campo en el que introducir la donación. Una vez introducida el numero de donación, unico para cada una y creado mediante un algoritmo explicado en la seccion anterior. El número de donación se consulta en la base de datos mediante un proceso explicado en la seccion anterior.\\
 
 Una vez pasado la introduccion del codigo de donacion nos aparece un formulario que ha sido implementado mediante clases del framework Bootstrap. Lo mas destacable se encuentra dentro del script \textit{form.js} en el que se implementan un par de funciones que le otorgan logica al formulario.\\
@@ -59,5 +111,12 @@ Una vez diseñado el widget a nuestra manera otras 2 funciones seran las encarga
 \codigofuente{Java}{Un fragmento de la función encargada de enviar el widget al servidor}{src/enviowidget.js}
 
 \section{Implementación del widget}
+El widget esta implementado de la manera mas sencilla y con las tecnologias menos pesadas posibles para no suponer una carga para la tienda que lo implemente. El widget estará alojado en el servidor y la tienda implementará una llamada a este para que este se integre en la tienda cada vez que un comprador entra a ella.\\
+
+El widget consta de dos funciones que permiten que el importe de donacion varie segun las opciones que elija el usuario y otra que es la encargada de enviar los datos al servidor para que este recoja las donaciones. Finalmente el widget tiene el diseño creado por la empresa.\\
+
+Como implementacion a destacar se encuentra la manera de codificar el widget. Se ha desarrollado de manera que no necesite una hoja de estilos anexa para funcionar, ya que él mismo implementa el estilo dentro del HTML. Todo el widget esta escrito en un String para que este luego sea inyectado en el comercio online. En la muestra de codigo que se puede ver a continuacion (Listado 6.14) no se ha añadido todo el codigo ya que la extension y el formato de este, al estar escritos sobre un String, hacia muy dificil su lectura.
+
+\codigofuente{HTML}{Codigo de un widget}{src/widget.html}
 
 \section{Implementación del sistema de visualización}
