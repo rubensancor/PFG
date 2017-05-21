@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.14)  22 MAY 2017 01:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.14)  22 MAY 2017 01:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,6 +506,39 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
  (./otras.aux)
 \openout5 = `otras.aux'.
 
+) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count104
+\calc@Bcount=\count105
+\calc@Adimen=\dimen121
+\calc@Bdimen=\dimen122
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count106
+\calc@Cskip=\skip54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box36
+\AM@toc@title=\toks26
+\c@AM@survey=\count107
+\AM@templatesizebox=\box37
 ) (./main.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
@@ -516,33 +549,33 @@ LaTeX Warning: Label `objetoJSON' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen121
-\scratchbox=\box36
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen122
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count108
+\scratchdimen=\dimen123
+\scratchbox=\box38
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen124
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -550,10 +583,6 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -592,111 +621,92 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count110
+\c@lstlisting=\count114
+\AtBeginShipoutBox=\box39
 
-<imgs/esidelogos/ii.pdf, id=1, 525.16202pt x 354.12299pt>
-File: imgs/esidelogos/ii.pdf Graphic file (type pdf)
 
-<use imgs/esidelogos/ii.pdf>
-Package pdftex.def Info: imgs/esidelogos/ii.pdf used on input line 49.
-(pdftex.def)             Requested size: 512.1496pt x 345.36847pt.
+pdfTeX warning: pdflatex (file ./Portada.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+<Portada.pdf, id=1, 597.50829pt x 845.0471pt>
+File: Portada.pdf Graphic file (type pdf)
+ <use Portada.pdf>
+Package pdftex.def Info: Portada.pdf used on input line 52.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-Overfull \hbox (153.2138pt too wide) in paragraph at lines 49--49
-[][] 
- []
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 49.
+pdfTeX warning: pdflatex (file ./Portada.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+File: Portada.pdf Graphic file (type pdf)
+<use Portada.pdf>
+Package pdftex.def Info: Portada.pdf used on input line 52.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex (file ./Portada.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Portada.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+<Portada.pdf, id=4, page=1, 597.50829pt x 845.0471pt>
+File: Portada.pdf Graphic file (type pdf)
+
+<use Portada.pdf, page 1>
+Package pdftex.def Info: Portada.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: Portada.pdf Graphic file (type pdf)
+ <use Portada.pdf, page 1>
+Package pdftex.def Info: Portada.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Portada.pdf Graphic file (type pdf)
+ <use Portada.pdf, page 1>
+Package pdftex.def Info: Portada.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Portada.pdf Graphic file (type pdf)
+
+<use Portada.pdf, page 1>
+Package pdftex.def Info: Portada.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Portada.pdf Graphic file (type pdf)
+ <use Portada.pdf, page 1>
+Package pdftex.def Info: Portada.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [1
+
+ <./Portada.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>] [2
+
+]
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 53.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 49.
-
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 49.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 49.
-
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 49.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./imgs/esidelogos/ii.pdf>] [2
-
-]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
@@ -704,7 +714,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 51.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
  (./main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -751,7 +761,7 @@ Class scrbook Warning: \float@listhead detected!
 (scrbook)              Loading of package `scrhack' may help to
 (scrbook)              avoid this warning, if you are using a
 (scrbook)              a package that still implements the
-(scrbook)              deprecated \float@listhead interface  on input line 54.
+(scrbook)              deprecated \float@listhead interface  on input line 57.
 
 [11] [12
 
@@ -811,7 +821,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-<imgs/cuentas.png, id=62, 319.1925pt x 105.39375pt>
+<imgs/cuentas.png, id=88, 319.1925pt x 105.39375pt>
 File: imgs/cuentas.png Graphic file (type png)
  <use imgs/cuentas.png>
 Package pdftex.def Info: imgs/cuentas.png used on input line 40.
@@ -819,8 +829,8 @@ Package pdftex.def Info: imgs/cuentas.png used on input line 40.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 40.
 )
-LaTeX Info: Redefining \. on input line 62.
-LaTeX Info: Redefining \% on input line 62.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
 
 [2 <./imgs/cuentas.png>]
 Cap\'{\i }tulo 2.
@@ -834,7 +844,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<imgs/alboan.jpg, id=69, 1204.5pt x 632.3625pt>
+<imgs/alboan.jpg, id=95, 1204.5pt x 632.3625pt>
 File: imgs/alboan.jpg Graphic file (type jpg)
  <use imgs/alboan.jpg>
 Package pdftex.def Info: imgs/alboan.jpg used on input line 18.
@@ -909,7 +919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
-[8] <imgs/scrum.png, id=90, 547.04375pt x 411.5375pt>
+[8] <imgs/scrum.png, id=116, 547.04375pt x 411.5375pt>
 File: imgs/scrum.png Graphic file (type png)
  <use imgs/scrum.png>
 Package pdftex.def Info: imgs/scrum.png used on input line 44.
@@ -932,7 +942,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
 
-<imgs/equiposcrum.png, id=102, 603.25375pt x 251.94125pt>
+<imgs/equiposcrum.png, id=128, 603.25375pt x 251.94125pt>
 File: imgs/equiposcrum.png Graphic file (type png)
 
 <use imgs/equiposcrum.png>
@@ -945,7 +955,7 @@ LaTeX Warning: \oval, \circle, or \line size unavailable on input line 151.
 LaTeX Info: Redefining \. on input line 157.
 LaTeX Info: Redefining \% on input line 157.
 [12 <./imgs/equiposcrum.png>]
-<imgs/equipo.png, id=110, 442.65375pt x 362.35374pt>
+<imgs/equipo.png, id=136, 442.65375pt x 362.35374pt>
 File: imgs/equipo.png Graphic file (type png)
  <use imgs/equipo.png>
 Package pdftex.def Info: imgs/equipo.png used on input line 166.
@@ -973,7 +983,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--195
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 200.
 
-<imgs/sprint1.png, id=115, 432.61626pt x 211.79124pt>
+<imgs/sprint1.png, id=141, 432.61626pt x 211.79124pt>
 File: imgs/sprint1.png Graphic file (type png)
  <use imgs/sprint1.png>
 Package pdftex.def Info: imgs/sprint1.png used on input line 238.
@@ -981,25 +991,25 @@ Package pdftex.def Info: imgs/sprint1.png used on input line 238.
 LaTeX Info: Redefining \. on input line 238.
 LaTeX Info: Redefining \% on input line 238.
 
-[14] [15] <imgs/Sprint2.png, id=122, 442.65375pt x 151.56625pt>
+[14] [15] <imgs/Sprint2.png, id=148, 442.65375pt x 151.56625pt>
 File: imgs/Sprint2.png Graphic file (type png)
 
 <use imgs/Sprint2.png>
 Package pdftex.def Info: imgs/Sprint2.png used on input line 239.
 (pdftex.def)             Requested size: 256.07744pt x 87.68646pt.
- <imgs/Sprint3.png, id=123, 322.20375pt x 241.90375pt>
+ <imgs/Sprint3.png, id=149, 322.20375pt x 241.90375pt>
 File: imgs/Sprint3.png Graphic file (type png)
 
 <use imgs/Sprint3.png>
 Package pdftex.def Info: imgs/Sprint3.png used on input line 240.
 (pdftex.def)             Requested size: 213.3957pt x 160.21802pt.
- <imgs/Sprint4.png, id=124, 563.10374pt x 141.52875pt>
+ <imgs/Sprint4.png, id=150, 563.10374pt x 141.52875pt>
 File: imgs/Sprint4.png Graphic file (type png)
 
 <use imgs/Sprint4.png>
 Package pdftex.def Info: imgs/Sprint4.png used on input line 241.
 (pdftex.def)             Requested size: 298.75269pt x 75.08762pt.
- <imgs/gantt.png, id=125, 544.0325pt x 1281.78876pt>
+ <imgs/gantt.png, id=151, 544.0325pt x 1281.78876pt>
 File: imgs/gantt.png Graphic file (type png)
 
 <use imgs/gantt.png>
@@ -1030,7 +1040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
-<imgs/tareas.png, id=132, 704.6325pt x 543.02875pt>
+<imgs/tareas.png, id=158, 704.6325pt x 543.02875pt>
 File: imgs/tareas.png Graphic file (type png)
  <use imgs/tareas.png>
 Package pdftex.def Info: imgs/tareas.png used on input line 272.
@@ -1041,8 +1051,8 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 276.
 
 ) [17 <./imgs/Sprint4.png>]
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
  [18 <./imgs/gantt.png>] [19 <./imgs/tareas.png>]
 [20
 
@@ -1124,7 +1134,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
-<imgs/mongochart.png, id=173, 1027.84pt x 578.16pt>
+<imgs/mongochart.png, id=200, 1027.84pt x 578.16pt>
 File: imgs/mongochart.png Graphic file (type png)
  <use imgs/mongochart.png>
 Package pdftex.def Info: imgs/mongochart.png used on input line 114.
@@ -1135,7 +1145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-<imgs/objectJSON.png, id=179, 600.2425pt x 113.42375pt>
+<imgs/objectJSON.png, id=206, 600.2425pt x 113.42375pt>
 File: imgs/objectJSON.png Graphic file (type png)
 
 <use imgs/objectJSON.png>
@@ -1146,7 +1156,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-<imgs/JSONejemplo.PNG, id=180, 172.39406pt x 162.6075pt>
+<imgs/JSONejemplo.PNG, id=207, 172.39406pt x 162.6075pt>
 File: imgs/JSONejemplo.PNG Graphic file (type png)
 
 <use imgs/JSONejemplo.PNG>
@@ -1206,7 +1216,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<imgs/Arquitectura.png, id=203, 625.33624pt x 394.47375pt>
+<imgs/Arquitectura.png, id=229, 625.33624pt x 394.47375pt>
 File: imgs/Arquitectura.png Graphic file (type png)
 
 <use imgs/Arquitectura.png>
@@ -1259,7 +1269,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-<imgs/Mockup.png, id=208, 583.17876pt x 844.15375pt>
+<imgs/Mockup.png, id=234, 583.17876pt x 844.15375pt>
 File: imgs/Mockup.png Graphic file (type png)
  <use imgs/Mockup.png>
 Package pdftex.def Info: imgs/Mockup.png used on input line 55.
@@ -1294,21 +1304,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-[39] <imgs/sunburst.png, id=219, 675.52374pt x 593.21625pt>
+[39] <imgs/sunburst.png, id=245, 675.52374pt x 593.21625pt>
 File: imgs/sunburst.png Graphic file (type png)
 
 <use imgs/sunburst.png>
 Package pdftex.def Info: imgs/sunburst.png used on input line 102.
 (pdftex.def)             Requested size: 256.07744pt x 224.88141pt.
- <imgs/dategraph.png, id=220, 858.20625pt x 120.45pt>
+ <imgs/dategraph.png, id=246, 858.20625pt x 120.45pt>
 File: imgs/dategraph.png Graphic file (type png)
 
 <use imgs/dategraph.png>
 Package pdftex.def Info: imgs/dategraph.png used on input line 104.
 (pdftex.def)             Requested size: 341.43442pt x 47.91998pt.
 )
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
  [40 <./imgs/sunburst.png> <./imgs/dategraph.png>]
 Cap\'{\i }tulo 7.
 (./chapters/implementacion.tex [41
@@ -1500,8 +1510,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 (./src/dataset.py))
-LaTeX Info: Redefining \. on input line 90.
-LaTeX Info: Redefining \% on input line 90.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
  [52]
 Cap\'{\i }tulo 9.
 (./chapters/manual.tex
@@ -1514,7 +1524,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<imgs/principal.png, id=262, 1345.025pt x 636.3775pt>
+<imgs/principal.png, id=288, 1345.025pt x 636.3775pt>
 File: imgs/principal.png Graphic file (type png)
  <use imgs/principal.png>
 Package pdftex.def Info: imgs/principal.png used on input line 16.
@@ -1527,7 +1537,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 [53
 
  <./imgs/principal.png>]
-<imgs/numcertificado.PNG, id=267, 578.16pt x 259.7203pt>
+<imgs/numcertificado.PNG, id=293, 578.16pt x 259.7203pt>
 File: imgs/numcertificado.PNG Graphic file (type png)
 
 <use imgs/numcertificado.PNG>
@@ -1538,7 +1548,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-<imgs/formularioCertificado.PNG, id=268, 920.68968pt x 417.81094pt>
+<imgs/formularioCertificado.PNG, id=294, 920.68968pt x 417.81094pt>
 File: imgs/formularioCertificado.PNG Graphic file (type png)
 
 <use imgs/formularioCertificado.PNG>
@@ -1552,7 +1562,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
 [54 <./imgs/numcertificado.PNG> <./imgs/formularioCertificado.PNG>]
-<imgs/mujeresProyecto.PNG, id=274, 533.74406pt x 481.8pt>
+<imgs/mujeresProyecto.PNG, id=300, 533.74406pt x 481.8pt>
 File: imgs/mujeresProyecto.PNG Graphic file (type png)
 
 <use imgs/mujeresProyecto.PNG>
@@ -1568,7 +1578,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-<imgs/wizard1.PNG, id=275, 1014.03844pt x 507.39563pt>
+<imgs/wizard1.PNG, id=301, 1014.03844pt x 507.39563pt>
 File: imgs/wizard1.PNG Graphic file (type png)
  <use imgs/wizard1.PNG>
 Package pdftex.def Info: imgs/wizard1.PNG used on input line 37.
@@ -1579,26 +1589,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 [55 <./imgs/mujeresProyecto.PNG>]
-<imgs/contacto.PNG, id=280, 982.42032pt x 371.88937pt>
+<imgs/contacto.PNG, id=306, 982.42032pt x 371.88937pt>
 File: imgs/contacto.PNG Graphic file (type png)
  <use imgs/contacto.PNG>
 Package pdftex.def Info: imgs/contacto.PNG used on input line 41.
 (pdftex.def)             Requested size: 426.79141pt x 161.56061pt.
 
-<imgs/mensaje.PNG, id=281, 353.82187pt x 66.2475pt>
+<imgs/mensaje.PNG, id=307, 353.82187pt x 66.2475pt>
 File: imgs/mensaje.PNG Graphic file (type png)
  <use imgs/mensaje.PNG>
 Package pdftex.def Info: imgs/mensaje.PNG used on input line 43.
 (pdftex.def)             Requested size: 341.43442pt x 63.92943pt.
 
-<imgs/wizard2.PNG, id=282, 1017.8025pt x 485.56406pt>
+<imgs/wizard2.PNG, id=308, 1017.8025pt x 485.56406pt>
 File: imgs/wizard2.PNG Graphic file (type png)
  <use imgs/wizard2.PNG>
 Package pdftex.def Info: imgs/wizard2.PNG used on input line 47.
 (pdftex.def)             Requested size: 426.79141pt x 203.60951pt.
 )
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
 
 [56 <./imgs/wizard1.PNG> <./imgs/contacto.PNG>] [57 <./imgs/mensaje.PNG> <./img
 s/wizard2.PNG>] [58
@@ -1653,8 +1663,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 Underfull \vbox (badness 2538) has occurred while \output is active []
 
  [61])
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
 
 [62] (./main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 14--18
@@ -1698,7 +1708,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--90
 ])
 LaTeX Info: Redefining \. on input line 115.
 LaTeX Info: Redefining \% on input line 115.
- [64] (./main.aux
+ [64]
+Ap\'{e}ndice A.
+(./chapters/anexos.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+<imgs/anexo1.png, id=341, 370.38374pt x 75.28125pt>
+File: imgs/anexo1.png Graphic file (type png)
+ <use imgs/anexo1.png>
+Package pdftex.def Info: imgs/anexo1.png used on input line 9.
+(pdftex.def)             Requested size: 298.75269pt x 60.72244pt.
+
+<imgs/anexo2.png, id=342, 339.51843pt x 42.91031pt>
+File: imgs/anexo2.png Graphic file (type png)
+ <use imgs/anexo2.png>
+Package pdftex.def Info: imgs/anexo2.png used on input line 17.
+(pdftex.def)             Requested size: 298.75269pt x 37.75986pt.
+
+<imgs/anexo3.png, id=343, 414.04688pt x 230.36063pt>
+File: imgs/anexo3.png Graphic file (type png)
+ <use imgs/anexo3.png>
+Package pdftex.def Info: imgs/anexo3.png used on input line 26.
+(pdftex.def)             Requested size: 298.75269pt x 166.21803pt.
+
+[65
+
+ <./imgs/anexo1.png> <./imgs/anexo2.png>]
+<imgs/anexo4.png, id=348, 271.76532pt x 99.37125pt>
+File: imgs/anexo4.png Graphic file (type png)
+ <use imgs/anexo4.png>
+Package pdftex.def Info: imgs/anexo4.png used on input line 33.
+(pdftex.def)             Requested size: 256.07744pt x 93.63945pt.
+)
+LaTeX Info: Redefining \. on input line 119.
+LaTeX Info: Redefining \% on input line 119.
+
+[66 <./imgs/anexo3.png> <./imgs/anexo4.png>] (./main.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -1707,31 +1754,30 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8415 strings out of 494958
- 119158 string characters out of 6179386
- 381687 words of memory out of 5000000
- 11333 multiletter control sequences out of 15000+600000
- 29349 words of font info for 75 fonts, out of 8000000 for 9000
+ 9196 strings out of 494958
+ 131948 string characters out of 6179386
+ 395471 words of memory out of 5000000
+ 12092 multiletter control sequences out of 15000+600000
+ 28138 words of font info for 71 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 47i,10n,52p,1049b,1311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,18n,52p,1049b,1311s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (78 pages, 4366107 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (80 pages, 4335506 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
+ 399 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

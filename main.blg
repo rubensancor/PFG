@@ -2,14 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plainurl.bst
+A level-1 auxiliary file: chapters/acronimos.aux
 Database file #1: otrasreferencias.bib
-Repeated entry---line 121 of file otrasreferencias.bib
- : @webpage{colorpicker
- :                     ,
-I'm skipping whatever remains of this entry
 You've used 39 entries,
             2361 wiz_defined-function locations,
-            656 strings with 6774 characters,
+            657 strings with 6796 characters,
 and the built_in function-call counts, 7553 in all, are:
 = -- 1131
 > -- 39
@@ -48,4 +45,3 @@ warning$ -- 0
 while$ -- 0
 width$ -- 41
 write$ -- 353
-(There was 1 error message)

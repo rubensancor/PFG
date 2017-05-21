@@ -1,0 +1,39 @@
+\section{How to: Colmena}
+
+\subsection{Implementación en Colmena (creación de un nuevo script)}
+Cuando una empresa quiere hacer su propio widget, se le entrega una página web en la que tendrá la opción de personalizarlo a su gusto. Cuando se confirma el widget, el nuevo script se genera automáticamente con el html y el css recibido de la página web. Este script se guarda en la carpeta \texttt{public/routes} dentro del servidor con el nombre que ha introducido la empresa en cuestión y el añadido “\_colmena.js”. Por ejemplo: alboan\_colmena.js. \\
+
+El siguiente paso es añadir ese script a la api. Para ello modificamos el archivo \\
+\texttt{public/routes/api.js}. Dónde esta el comentario \texttt{Add here the new scripts. Each page has to have one method}, se añadira una nueva función como el metodo de ejemplo que se ofrece. En este ejemplo habrá que cambiar:
+
+\figuraSinMarco{0.7}{imgs/anexo1.png}{Ruta de ejemplo del widget}{anexo1}{}
+
+\begin{itemize}
+	\item Dónde pone \texttt{/script} por una dirección nueva y única que será utilizada solo por una tienda, por ejemplo \texttt{/alboan\_colmena}. Está dirección se utilizará luego en la tienda que contrate el	servicio de la colmena.
+	\item Dónde pone \texttt{/s2.js} habrá que poner el nombre del script que hemos creado antes. En este
+	ejemplo habría que sustituirlo por \texttt{/alboan\_colmena.js}.
+\end{itemize}
+
+\figuraSinMarco{0.7}{imgs/anexo2.png}{Ruta final del widget}{anexo2}{}
+
+\subsection{Implementación en la tienda}
+
+La tienda tiene que hacer 4 cosas:
+
+\begin{itemize}
+	\item  Introducir unas líneas de código dentro de una caja,\texttt{ <div>, <td>...} con el identificativo colmenaWidget donde quiere que se muestre el script, en este caso está en el archivo de la tienda prestashop \texttt{html/themes/default/shopping-cart.tpl}
+	
+	\figuraSinMarco{0.7}{imgs/anexo3.png}{Codigo para incrustar el widget}{anexo3}{}
+	
+	Nota: la línea de código a modificar es:
+	\texttt{eads.src = {direccion del servidor}/{ruta de la api}}
+	
+	\item Implementar las funciones addEuro() y removeEuro() que añadirán al carro el importe de la donación. Para cada tienda la implementación de estas funciones es diferente, en el ejemplo que estamos siguiendo:
+	
+	\figuraSinMarco{0.6}{imgs/anexo4.png}{Funciones para el cambio de valor en el carrito}{anexo4}{}
+	
+	\item Añadir al botón de finalizar la compra la acción \texttt{onclick="colmenaEnviarDatos()"}.
+	
+	\item Además, al cliente se le tiene que hacer llegar el identificativo de la donación obtenido en la 	funcion \texttt{colmenaEnviarDatos()}.
+	
+\end{itemize}

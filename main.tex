@@ -1,5 +1,7 @@
 \documentclass{memoriaPFC}
 \fontfamily{cmss}\selectfont
+\usepackage[final]{pdfpages}
+
 
 
 
@@ -22,17 +24,17 @@
 % mayo || septiembre (en minúsculas!!)
 \date{mayo de 2017}
 
-\resumen{%
- El proyecto consta de varios módulos. La base de todo es un servidor implementado en node.js. En él se aloja la página web, los widgets de las diferentes empresas que han decidido implantarlo en sus páginas web y una API que administra el enrutamiento de la web y permite varias funciones sobre la base de datos.\\
+\resumen{
+ El proyecto Colmena es un sistema que permitirá a los comercios incluir un sistema personalizado para que sus usuarios puedan realizar micro donaciones a los proyectos de la ONG Alboan mientras compran en sus tiendas. Este consta de varios módulos.\\
  
- La página web sirve de apoyo al widget, es donde se muestra la información general del widget, los diferentes proyectos a los que apoyar, un wizard con el que poder crear tu propio widget y la plataforma para poder conseguir el certificado de donación.\\
+ La base de todo es un servidor implementado en node.js. En él se aloja la página web, los widgets de las diferentes empresas que han decidido implantarlo en sus comercios online y una API que administra el enrutamiento de la web y permite varias funciones sobre la base de datos.\\
  
- La base de datos noSQL aloja los datos de las diferentes donaciones para posteriormente poder crear el certificado de donación y eventualmente generar estadísticas sobre las cantidades, fechas y lugares en los que más donaciones se están obteniendo.\\
+ La página web sirve de apoyo al widget, donde se muestra la información general de este. La web también sirve para mostrar los diferentes proyectos a los que se puede apoyar, incluye un asistente con el que poder crear tu propio widget y la plataforma para conseguir el certificado de donación.\\
  
- Por último, el widget. Está pensado para que las empresas que tengan portales de compra online lo incrusten durante algunas de sus fases compra del cliente con el fin de que este haga una pequeña donación a la causa que las empresas han “apadrinado”. El widget es personalizable por las empresas que lo quieran implantar en su web, así conseguir una mayor integración con ellas. Entre sus opciones de personalización destaca la posibilidad de elegir entre una cantidad fija o variable de donación.\\
+ La base de datos aloja los datos de las diferentes donaciones para posteriormente poder crear el certificado de donación y eventualmente generar estadísticas sobre las cantidades, fechas y lugares en los que más donaciones se están obteniendo.\\
  
+ Por último, el widget está pensado para que las empresas que tengan portales de compra online lo incrusten en alguna de las fases del proceso de venta, con el fin de que el cliente haga una pequeña donación a la causa que las empresas han “apadrinado”. El widget es personalizable por las empresas que lo quieran implantar en su web, así conseguir una mayor integración con ellas. Entre sus opciones de personalización destaca la posibilidad de elegir entre una cantidad fija o variable de donación.\\
  
- Finalmente tiene implementado un sistema con graficos para extraer estadisticas de las donaciones.
   
  
 }
@@ -46,7 +48,8 @@
 
 % Portada, resumen, indices
 \frontmatter
-\hacerportada
+%\hacerportada
+\includepdf{Portada.pdf}
 \hacerresumen
 \tableofcontents
 \listoffigures % Opcional
@@ -59,7 +62,7 @@
 
 \input{chapters/introduccion}
 
-\chapter{Antecedentes y Justificación}
+\chapter{Antecedentes y justificación}
 
 \input{chapters/antecedentes}
 
@@ -109,7 +112,8 @@
 
 \bibliografia{otrasreferencias}
 %\bibliografiaOtras{otrasreferencias.bib} %Opcional
-%\chapter{Acrónimos}
+\chapter{Acrónimos}
 
+\input{chapters/anexos}
 
 \end{document}
