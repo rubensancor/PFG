@@ -4,36 +4,36 @@ Este capítulo contiene los aspectos más significativos sobre la implementació
 Las herramientas que se han utilizado para facilitar el desarrollo y la arquitectura del proyecto han sido las siguientes.
 
 \subsection{Atom}
-Atom se define a si mismo como ``el editor de textos hackable del siglo XXI''. Dentro de este editor de texto o entorno de desarrollo integrado (IDE), ya que cumple todos los requisitos de uno de estos, se encuentran una serie de funcionalidades y características que lo hacen una de las herramientas mas potentes del mercado. Dentro de las funcionalidades que ofrece esta herramienta se encuentran los paquetes que la comunidad crea y desarrolla, gracias a estos paquetes el programa a conseguido implementar la corrección y sintaxis de muchos lenguajes. Por otra parte, este editor de textos es totalmente personalizable ya que esta desarrollado con tecnologias web y ofrece una IU totalmente modificable mediante CSS/Less. Por ultimo, y no menos importante, Atom esta desarrollado por GitHub, por lo que es open-source y ofrece la posibilidad de ayudar en el desarrollo del código de la aplicación.
+Atom\cite{atom} se define a si mismo como ``el editor de textos hackable del siglo XXI''. Dentro de este editor de texto o entorno de desarrollo integrado (IDE), ya que cumple todos los requisitos de uno de estos, se encuentran una serie de funcionalidades y características que lo hacen una de las herramientas mas potentes del mercado. Dentro de las funcionalidades que ofrece esta herramienta se encuentran los paquetes que la comunidad crea y desarrolla, gracias a estos paquetes el programa a conseguido implementar la corrección y sintaxis de muchos lenguajes. Por otra parte, este editor de textos es totalmente personalizable ya que esta desarrollado con tecnologias web y ofrece una IU totalmente modificable mediante CSS/Less. Por ultimo, y no menos importante, Atom esta desarrollado por GitHub, por lo que es open-source y ofrece la posibilidad de ayudar en el desarrollo del código de la aplicación.
 
 \subsection{Brackets}
-Brackets es un editor de texto moderno enfocado en el diseño de la parte visual de las aplicaciones web. La funcionalidad mas destacada de este software es la vista previa que permite al desarrollador ver en directo como quedarán los cambios que realice en el código, directamente en la página web, esto ahorra tiempo al no tener que recargar la web constantemente.Brackets también ofrece un editor interno que permite navegar por todos los archivos CSS que una etiqueta implemente, lo que aligera la carga de estar cambiando entre las diferentes hojas de estilo. Por ultimo, entre sus funcionalidades tambien destaca el soporte a los preprocesadores, brackets permite hacer cambios directamente en los archivos de las hojas de estilo de los preprocesadores y ver esos cambios directamente, sin tener que compilarlos.
+Brackets\cite{brackets} es un editor de texto moderno enfocado en el diseño de la parte visual de las aplicaciones web. La funcionalidad mas destacada de este software es la vista previa que permite al desarrollador ver en directo como quedarán los cambios que realice en el código, directamente en la página web, esto ahorra tiempo al no tener que recargar la web constantemente.Brackets también ofrece un editor interno que permite navegar por todos los archivos CSS que una etiqueta implemente, lo que aligera la carga de estar cambiando entre las diferentes hojas de estilo. Por ultimo, entre sus funcionalidades tambien destaca el soporte a los preprocesadores, brackets permite hacer cambios directamente en los archivos de las hojas de estilo de los preprocesadores y ver esos cambios directamente, sin tener que compilarlos.
 
 \subsection{Git}
-Git es un sistema de control de versiones distribuido gratuito y de código abierto que está diseñado para manejar desde pequeños proyectos particulares a proyectos de grandes organizaciones con una gran velocidad y eficiencia. Además es muy fácil de aprender, tiene una excelente documentación y al ser usado por muchísimos desarrolladores tiene una gran comunidad de usuarios dispuestos a resolver cualquier problema.
+Git\cite{git} es un sistema de control de versiones distribuido gratuito y de código abierto que está diseñado para manejar desde pequeños proyectos particulares a proyectos de grandes organizaciones con una gran velocidad y eficiencia. Además es muy fácil de aprender, tiene una excelente documentación y al ser usado por muchísimos desarrolladores tiene una gran comunidad de usuarios dispuestos a resolver cualquier problema.
 
 \section{Implementación del servidor}
 El servidor esta implementado en Node.js con la ayuda de varios paquetes creados por la comunidad. El servidor esta diferenciado en dos archivos diferentes. El archivo \textit{server.js} contiene la configuracion de los paquetes que va a utilizar la aplicacion y el puerto en el que se va a desplegar. El archivo que contiene toda la funcionalidad del sistema es \textit{api.js}, en este archivo estan definidas las rutas y las funciones del proyecto.\\
 
-Lo primero en lo que fijarse al entrar en el archivo \textit{server.js} es en los paquetes que tiene como requerimientos y los que utiliza. Entre los paquetes y usos mas destacables esta el requerimiento del otro archivo mas importante del proyecto, \textit{api.js}, el uso del framework express y la carga de EJS como el motor visual del proyecto. Por otra parte, cabe destacar el puntero (Listado ) que se crea para indicar al sistema donde van a estar alojados todos los recursos públicos del sistema.\\
+Lo primero en lo que fijarse al entrar en el archivo \textit{server.js} es en los paquetes que tiene como requerimientos y los que utiliza. Entre los paquetes y usos mas destacables esta el requerimiento del otro archivo mas importante del proyecto, \textit{api.js}, el uso del framework express y la carga de EJS como el motor visual del proyecto. Por otra parte, cabe destacar el puntero (Listado 7.1) que se crea para indicar al sistema donde van a estar alojados todos los recursos públicos del sistema.\\
 
 \codigofuente{Java}{Puntero a la carpeta public}{src/puntero.js}
 
 En el archivo \textit{api.js} se encuentra toda la funcionalidad del servidor separada por las rutas que este ofrece a la página web. En esta seccion se hablará de como se han implementado las diferentes funcionalidades.
 
 \subsection{Como añadir una nueva ruta}
-Para crear una nueva ruta dentro del servidor solo habria que añadir una nueva respuesta a una solicitud de la parte del cliente (Listado ). En el direccionamiento existen 4 tipos de solicitudes desde la parte servidora, estas serian: GET, POST, PUT y DELETE. Posteriormente habria que indicar a que ruta harian esta solicitud, en el codigo marcado con /RUTA. Finalmente se entraria en la funcion en la que se desarrollaria todo el codigo que el programador haya especificado.\\ 
+Para crear una nueva ruta dentro del servidor solo habria que añadir una nueva respuesta a una solicitud de la parte del cliente (Listado 7.2). En el direccionamiento existen 4 tipos de solicitudes desde la parte servidora, estas serian: GET, POST, PUT y DELETE. Posteriormente habria que indicar a que ruta harian esta solicitud, en el codigo marcado con /RUTA. Finalmente se entraria en la funcion en la que se desarrollaria todo el codigo que el programador haya especificado.\\ 
 
 \codigofuente{Java}{Ejemplo de ruta con Express}{src/ruta.js}
 
 \subsection{Conexión con la base de datos}
 
-Lo primero a destacar es la conexión con la base de datos, esta esta implementada con mediante el paquete mongojs. La conexión es muy sencilla (Listado) y al solo tener una colección nos conectamos directamente a ella. La  base de datos al ser MongoDB se despliega en el puerto 27017, en caso de estar desplegada solo habria que cambiar ese dato. El nombre de la base de datos es colmena y la coleccion donaciones.\\
+Lo primero a destacar es la conexión con la base de datos, esta esta implementada con mediante el paquete mongojs. La conexión es muy sencilla (Listado 7.3) y al solo tener una colección nos conectamos directamente a ella. La  base de datos al ser MongoDB se despliega en el puerto 27017, en caso de estar desplegada solo habria que cambiar ese dato. El nombre de la base de datos es colmena y la coleccion donaciones.\\
 
 \codigofuente{Java}{Conexión a la base de datos mediante mongojs}{src/mongojs.js}
 
 \subsection{Configuracion de Nodemailer}
-Nodemailer\cite{keylist}, es el paquete que nos permite enviar los mails a las personas que donan. La configuración de este paquete es muy sencilla y nos permite elegir servicio con el que vamos a enviar los mails, en este caso seria Gmail y solo habria que añadir el mail y la contraseña de la cuenta que queramos utilizar.
+Nodemailer, es el paquete que nos permite enviar los mails a las personas que donan. La configuración de este paquete es muy sencilla y nos permite elegir servicio con el que vamos a enviar los mails, en este caso seria Gmail y solo habria que añadir el mail y la contraseña de la cuenta que queramos utilizar.\\
 
 \codigofuente{Java}{Configuracion de Nodemailer}{src/nodemailer.js}
 
@@ -42,7 +42,7 @@ Las funcionalidades que ofrece el servidor son REST, es decir, esperan a que una
 \subsection{Codificacion de la función de recepción de donaciones}
 El sistema sistema de recepcion de donaciones esta codificado de manera que al recibir una solicitud de donacion desde el widget, la funcion, mediante un algoritmo, calcula un id de donacion unico para cada usuario. Posteriormente empaqueta este numero y lo envia a la base de datos junto con los datos de la donación. Por ultimo genera un email con el id de donacion y se lo envia a la persona que ha realizado la compra.\\
 
-El algoritmo que genera los numeros de donación se ha creado utilizando un metodo en el que es practicamente imposible generar un numero igual. El algortimo comienza capturando el tiempo en el que llega la peticion, por lo que este numero solo puede ser igual si la peticion llega en el mismo momento exacto. El numero que se genera tiene 13 cifras. Posteriormente se genera un numero aleatorio entre 0 y 100 y se suma al número obtenido anteriormente. Las posibilidades de generar un número igual solo serian significativas, un 1\%, si la peticion llegase exactamente en el mismo momento.
+El algoritmo que genera los numeros de donación se ha creado utilizando un metodo en el que es practicamente imposible generar un numero igual. El algortimo comienza capturando el tiempo en el que llega la peticion, por lo que este numero solo puede ser igual si la peticion llega en el mismo momento exacto. El numero que se genera tiene 13 cifras. Posteriormente se genera un numero aleatorio entre 0 y 100 y se suma al número obtenido anteriormente. Las posibilidades de generar un número igual solo serian significativas, un 1\%, si la peticion llegase exactamente en el mismo momento.\\
 
 \codigofuente{Java}{Algoritmo de generacion de numeros de donacion}{src/donacion.js}
 
@@ -64,7 +64,7 @@ El nombre que se le aplicará al widget seguirá el siguiente formato: Nombre de
 \subsection{Como utilizar la API para consultar datos}
 El servidor tambien ofrece una API para consultar diferentes datos y hacer nuestras propias estadisticas sin tener que depender de la aplicacion del proyecto. Esta API ofrece los datos en JSON sin formatear y directos de la base de datos. La API estará restringida para los datos sensibles.\\
 
-En el siguiente ejemplo se nos ofrece la posibilidad de entrar en la siguiente ruta: IPSERVIDOR/date/:year/:month. Cambiando \textit{year} y \textit{mont} por el año y el mes que queramos respectivamente, se nos ofrecera un json con todas las donaciones que ha habido ese mes.
+En el siguiente ejemplo se nos ofrece la posibilidad de entrar en la siguiente ruta: IPSERVIDOR/date/:year/:month. Cambiando \textit{year} y \textit{mont} por el año y el mes que queramos respectivamente, se nos ofrecera un json con todas las donaciones que ha habido ese mes.\\
 
 \codigofuente{Java}{Ejemplo de ruta de la API}{src/apidatos.js}
 
@@ -75,14 +75,20 @@ La página web esta dividida en plantillas \textit{ejs} que permiten modularizar
 
 La página web cuenta en su parte superior con un \textit{scrollspy}, es decir, la barra superior es un acceso directo a las diferentes secciones que tiene la página web que va siguiendo al usuario a medida que se va moviendo por la página web, de manera que siempre esta disponible. Esta barra esta diseñada de manera que sea responsiva, cuando el dispositivo desde el que se navegue sea demasiado pequeño, esta se unificará y se convertira en un menu desplegable.\\
 
-Las diferentes secciones de la página web se han desarrollado mediante la etiqueta \textit{section} (Listado 6.1). Esta etiqueta fue implementada en HTML5, la última version de esta tecnologia web. Estas secciones estan referenciadas desde la barra superior que hemos citado anteriormente, por lo que los usuarios podran moverse mas rapidamente por la página web.\\
+Las diferentes secciones de la página web se han desarrollado mediante la etiqueta \textit{section} (Listado 7.8). Esta etiqueta fue implementada en HTML5, la última version de esta tecnologia web. Estas secciones estan referenciadas desde la barra superior que hemos citado anteriormente, por lo que los usuarios podran moverse mas rapidamente por la página web.\\
 
 
 \codigofuente{HTML}{Uso de section en la página web}{src/section.html}
 
-Dentro de la página web hay varios botones que al pulsarlos despliegan diferentes ventanas las que hay desde información sobre los proyectos a los que se apoya con el proyecto hasta un asistente para crear tu propio widget. Estas ventanas, denominadas modales, estan ocultas en todo momento hasta que se les llama desde con algun hipervinculo en un boton. Estas ventanas (Listado 6.2) implementan varias clases del framework Bootstrap, necesarios para conseguir que no esten visibles y hagan un efecto de entrada. El atributo \textit{tabindex} designa cual sera el orden del foco a la hora de pulsar el boton tabulacion. El atributo \textit{role=dialog} se utiliza para marcar que el elemento esta separado de la pagina principal y es un dialogo o ventana. Por ultimo, el atributo \textit{aria-hidden} indica que el elemento no sera visible por el usuario hasta que se llame.\\
+Dentro de la página web hay varios botones que al pulsarlos despliegan diferentes ventanas las que hay desde información sobre los proyectos a los que se apoya con el proyecto hasta un asistente para crear tu propio widget. Estas ventanas, denominadas modales, estan ocultas en todo momento hasta que se les llama desde con algun hipervinculo en un boton. Estas ventanas (Listado 7.9) implementan varias clases del framework Bootstrap, necesarios para conseguir que no esten visibles y hagan un efecto de entrada. El atributo \textit{tabindex} designa cual sera el orden del foco a la hora de pulsar el boton tabulacion. El atributo \textit{role=dialog} se utiliza para marcar que el elemento esta separado de la pagina principal y es un dialogo o ventana. Por ultimo, el atributo \textit{aria-hidden} indica que el elemento no sera visible por el usuario hasta que se llame.\\
 
 \codigofuente{HTML}{Código de una ventana Modal}{src/modal.html}
+
+Una de las mejores caracteristicas de la página web es que es responsiva. Esto se consigue a traves de las hojas de estilo, en ellas se aplican unos atributos especificos para los estilos dependiendo de como sea el ancho del dispositivo que estamos utilizando. En el siguiente listado (Listado 7.10) vemos una de las media query\cite{mediaqueries} que delimita un area de estilo para un dispositivo con la pantalla de minimo 767px.\\
+
+\codigofuente{HTML}{Media query de estilo}{src/responsive.css}
+
+A continuación se explica la codificacion de algunas de las funcionalidades que ofrece la página web:
 
 \subsection{Codificación del sistema de expedición de certificados de donación}
 El sistema de expedición de certificados de donación se basa en un campo en el que introducir la donación. Una vez introducida el numero de donación, unico para cada una y creado mediante un algoritmo explicado en la seccion anterior. El número de donación se consulta en la base de datos mediante un proceso explicado en la seccion anterior.\\
@@ -93,20 +99,20 @@ Dentro de las dos funciones que alberga este script se encuentra la que valida e
 
 \codigofuente{HTML}{Expresión regular que comprueba los emails}{src/expr.html}
 
-Una vez se valida todo el formulario, se empaquetan todos los datos en JSON y se envian al servidor para que este los guarde en la base de datos. En esta transaccion se utiliza la tecnologia AJAX\cite{wsdl14} que permite la comunicacion entre el servidor y la pagina web.\\
+Una vez se valida todo el formulario, se empaquetan todos los datos en JSON y se envian al servidor para que este los guarde en la base de datos. En esta transaccion se utiliza la tecnologia AJAX\cite{ajax} que permite la comunicacion entre el servidor y la pagina web.\\
 
 \codigofuente{Java}{Código del envio de información del certificado al servidor}{src/certificado.js}
 
 \subsection{Codificación del asistente de creación de widgets}
 El sistema de creacion de widgets es similar al de expedición de certificados en la parte visual. Al clicar en un boton se desplegará una ventana modal y hay estará el asistente para la creacion de widgets. En este asistente no se creará el widget real, es una demo, para acceder al asistente real habrá que contactar con el soporte del proyecto.\\
 
-El asistente consta de un formulario y un widget interactivo que va cambiando dependiendo de las modificaciones que se realicen en el formulario. Esto es posible gracias al script \textit{widget.js} en el que esta desarrollada toda la logica de este asistente. Para que este asistente funcione tambien se han incluido otras librerias como la de seleccion de color\cite{wsdl15} ofrecida por un desarrollador de la comunidad.\\
+El asistente consta de un formulario y un widget interactivo que va cambiando dependiendo de las modificaciones que se realicen en el formulario. Esto es posible gracias al script \textit{widget.js} en el que esta desarrollada toda la logica de este asistente. Para que este asistente funcione tambien se han incluido otras librerias como la de seleccion de color\cite{colorpicker} ofrecida por un desarrollador de la comunidad.\\
 
-Dentro del script nombrado en el anterior parrafo se encuentran una serie de funciones que alteran esteticamente el widget, en este ejemplo (Listado 6.5) se muestra la funcion para cambiar el color del widget. En este caso se utiliza tambien la libreria nombrada anteriormente que ofrece una paleta de colores al usuario.  En esta función podemos comprobar como al ir cambiando el color en el selector de color el atributo CSS de color de fondo del widget irá cambiando.\\
+Dentro del script nombrado en el anterior parrafo se encuentran una serie de funciones que alteran esteticamente el widget, en este ejemplo (Listado 7.13) se muestra la funcion para cambiar el color del widget. En este caso se utiliza tambien la libreria nombrada anteriormente que ofrece una paleta de colores al usuario.  En esta función podemos comprobar como al ir cambiando el color en el selector de color el atributo CSS de color de fondo del widget irá cambiando.\\
 
 \codigofuente{Java}{Funcion para cambiar el color del widget}{src/cambiarcolor.js}
 
-Una vez diseñado el widget a nuestra manera otras 2 funciones seran las encargadas de recoger toda la informacion del diseño del widget y de enviarselo al servidor para que este lo guarde y este disponible automaticamente. La informacion del widget se envia en JSON y se envía al servidor de la misma manera que se enviaba la informacion del certificado, mediante la tecnologia AJAX (Listado 6.6).\\
+Una vez diseñado el widget a nuestra manera otras 2 funciones seran las encargadas de recoger toda la informacion del diseño del widget y de enviarselo al servidor para que este lo guarde y este disponible automaticamente. La informacion del widget se envia en JSON y se envía al servidor de la misma manera que se enviaba la informacion del certificado, mediante la tecnologia AJAX (Listado 7.14).\\
 
 \codigofuente{Java}{Un fragmento de la función encargada de enviar el widget al servidor}{src/enviowidget.js}
 
@@ -115,9 +121,6 @@ El widget esta implementado de la manera mas sencilla y con las tecnologias meno
 
 El widget consta de dos funciones que permiten que el importe de donacion varie segun las opciones que elija el usuario y otra que es la encargada de enviar los datos al servidor para que este recoja las donaciones. Finalmente el widget tiene el diseño creado por la empresa.\\
 
-Como implementacion a destacar se encuentra la manera de codificar el widget. Se ha desarrollado de manera que no necesite una hoja de estilos anexa para funcionar, ya que él mismo implementa el estilo dentro del HTML. Todo el widget esta escrito en un String para que este luego sea inyectado en el comercio online. En la muestra de codigo que se puede ver a continuacion (Listado 6.14) no se ha añadido todo el codigo ya que la extension y el formato de este, al estar escritos sobre un String, hacia muy dificil su lectura.
+Como implementacion a destacar se encuentra la manera de codificar el widget. Se ha desarrollado de manera que no necesite una hoja de estilos anexa para funcionar, ya que él mismo implementa el estilo dentro del HTML. Todo el widget esta escrito en un String para que este luego sea inyectado en el comercio online. En la muestra de codigo que se puede ver a continuacion (Listado 7.15) no se ha añadido todo el codigo ya que la extension y el formato de este, al estar escritos sobre un String, hacia muy dificil su lectura.\\
 
 \codigofuente{HTML}{Codigo de un widget}{src/widget.html}
-
-\section{Implementación del sistema de visualización}
-El sistema de visualizacion de datos esta implementado con la libreria D3.js

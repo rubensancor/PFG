@@ -3,14 +3,11 @@ Durante el desarrollo del proyecto se han ido realizando diferentes pruebas que 
 \section{Pruebas del servidor}
 Las pruebas del servidor se han realizado mediante una clase que Node.js lleva implementada internamente, la clase \textit{Console}. Esta clase nos permite loguear todos los eventos o mensajes de la aplicacion. Su funcionamiento es similar al famoso framework Log4J. La clase \textit{Console} permite mostrar el mensaje que aparece por consola trantandolo de manera diferente dependiendo de si es un mensaje de error, de log, de alerta...\\
 
-Por otra parte las pruebas unitarias se han realizado con un framework llamado Mocha que permite simular peticiones HTTP e incluso testear funciones asíncronas mediante asertos, como es el caso de las consultas a la base de datos.
+Por otra parte las pruebas unitarias se han realizado con un framework llamado Mocha\cite{mocha} que permite simular peticiones HTTP e incluso testear funciones asíncronas mediante asertos, como es el caso de las consultas a la base de datos.
 
 \section{Pruebas a la base de datos}
 Las pruebas a la base de datos se han hecho en materia de velocidad de peticiones y almacenamiento de los datos ya que al ser una base de datos noSQL no podemos cometer el error de añadir datos que no correspondan a las tablas configuradas.\\
 
-Para estas pruebas se ha creado un Script que genera donaciones de manera automatizada y posteriormente se han hecho peticiones que se pueden dar con el sistema en fucnionamiento. Con esto se ha medido el rendimiento de la base de datos.
-
-\section{Pruebas de la página web y el widget}
-Las pruebas de la parte visual del 
-
-\section{Pruebas del sistema de visualización de datos}
+Para estas pruebas se ha creado un Script que genera donaciones de manera automatizada y posteriormente se han hecho peticiones a la base de datos para medir su respuesta. La base de datos tarda en añadir 100.000 registros, 49,95 segundos. Y tarda en recuperar uno de los registros con un numero de donacion aleatorio 0,71 segundos.\\
+\newpage
+\codigofuente{Python}{Script para introducir datos a la base de datos}{src/dataset.py}

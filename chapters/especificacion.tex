@@ -14,12 +14,12 @@ Este capitulo tiene como objetivo describir la labor de diseño realizada para d
 Las herramientas que se han utilizado a la hora de diseñar el proyecto y sus elementos son las siguientes:
 
 \subsection{Draw.io}
-Draw.io es una herramienta web que se utiliza para el desarrollo de diagramas de cualquier tipo, lo cual la hace una herramienta muy potente. Ofrece una gran cantidad de iconos y personalizacion de los mismos para realizar los diagramas lo mas atractivos posibles. Entre sus caracteristicas destaca la integracion con sistemas de almacenamiento online como Google Drive o Dropbox y Github.\\
+Draw.io\cite{draw.io} es una herramienta web que se utiliza para el desarrollo de diagramas de cualquier tipo, lo cual la hace una herramienta muy potente. Ofrece una gran cantidad de iconos y personalización de los mismos para realizar los diagramas lo mas atractivos posibles. Entre sus características destaca la integración con sistemas de almacenamiento online como Google Drive o Dropbox y Github.\\
 
-En lo respectivo a este proyecto, solo se ha utilizado para diseñar los diagramas: AÑADIR DIAGRAMAS.
+En lo respectivo a este proyecto, solo se ha utilizado para diseñar los diagramas.
 
 \section{Diseño de la arquitectura}
-La arquitectura del proyecto (ver figura 9.1) se basa en un modelo en tres capas que gira en torno a el servidor Node.js. Estas tres capas permiten separar la parte visual, la lógica y la arquitectura de datos. Gracias a este modelo se puede centralizar la lógica del proyecto en la capa intermedia y abstraerla de los elementos externos a los que ofrece soporte.\\
+La arquitectura del proyecto (ver figura \ref{arquitectura}) se basa en un modelo en tres capas que gira en torno a el servidor Node.js. Estas tres capas permiten separar la parte visual, la lógica y la arquitectura de datos. Gracias a este modelo se puede centralizar la lógica del proyecto en la capa intermedia y abstraerla de los elementos externos a los que ofrece soporte.\\
 
 En la capa de presentación se encuentran la página web y el widget. Estos dos elementos dan soporte a la parte visual del proyecto y están conectados con el servidor para que este les proporcione funcionalidad. En esta capa también se encuentra el sistema de visualización de datos del proyecto, este recibe los datos de la base de datos por medio del servidor que se los provee formateados.\\
 
@@ -38,7 +38,6 @@ El servidor estará organizado de manera que en la carpeta \textit{public} estar
 
 Por último cabe destacar que en el diseño creado para el servidor todo gira alrededor del archivo en el que esta desarrollada la API, aunque la creación del servidor en el puerto especificado y la configuración de red se encuentre en el archivo original del servidor.\\
 
-HACER DIAGRAMA DEL SERVIDOR
 
 \section{Diseño de la página web}
 El diseño de la página web se ha realizado basándose en las convenciones de Bootstrap para que la web sea totalmente responsiva y visualizable desde la gran mayoría de los navegadores. Gracias al diseño con este framework se podrán añadir los componentes especificos que ofrece e implementar utilidades que sin este framework serian mas complejas de desarrollar.\\
@@ -51,7 +50,9 @@ En cuanto al diseño de la lógica de la página web, este esta preparado para q
 
 En conclusión, en cuanto a diseño estético la página es altamente escalable ya que solo haría falta añadir una nueva sección. La lógica tampoco supone ningún problema ya que el servicio que la página web quiera dar deberá estar implementado en la API por lo que en la página web solo se deberá desarrollar la llamada a este.\\
 
-AÑADIR DISEÑO PAGINA WEB
+En la figura \ref{mockup} podemos ver el diseño preliminar que se hizo sobre la página web. Se decididio utilizar draw.io ya que no existian requerimientos en este tema y el diseño era libre, por lo que con esta herramienta se agilizó el proceso.
+
+\figuraSinMarco{0.7}{imgs/Mockup.png}{Diseño preliminar de la página web}{mockup}{}
 
 \section{Diseño del widget}
 El diseño del widget se ha hecho de la manera mas simple posible, utilizando solo tecnologías que todos los navegadores puedan soportar, estas tecnologías son HTML, CSS y JavaScript.\\
@@ -100,10 +101,8 @@ Los diseños elegidos para mostrar estos datos serian los siguientes:
 	\item \textbf{Sunburst o diagrama circular:} en este gráfico (ver figura 5.2) se muestra un diagrama circular en el que se van clusterizando los datos a medida que vas adentrándote en el. Gracias a este gráfico se pueden analizar sectores mas pequeños de las donaciones y ver la agrupación de diferentes sectores de donantes.
 	\figuraSinMarco{0.6}{imgs/sunburst.png}{Diagrama circular}{queso}{}
 	\item \textbf{Fechas:} en este gráfico (ver figura 5.3) se muestra un calendario en el que se marcan los días con diferentes colores. Gracias a este gráfico se pueden ver los periodos en los que mas y menos se dona.
-	\figuraSinMarco{0.6}{imgs/dategraph.png}{Diagrama de fechas}{fechas}{}
-	\item \textbf{Mapa:} en este gráfico se muestra un mapa de España en el que se marcan las zonas en las que ha habido donaciones. Gracias a este gráfico es muy fácil visualizar como es cada zona y que las personas vean en que tipo de comunidad viven.
-	\figuraSinMarco{0.6}{imgs/sunburst.png}{Diagrama circular}{arquitectura}{}
+	\figuraSinMarco{0.8}{imgs/dategraph.png}{Diagrama de fechas}{fechas}{}
 \end{itemize} 
 
-El sistema de visualización de datos se ha planteado para que ejerza la minima carga al sistema, por lo que se plantea con una librería de visualización para la creación de infogramas interactivos y archivos JSON para poblarla, de manera que la tarea de formatear los datos para integrarlos en la librería será mínima.
+El sistema de visualización de datos se ha planteado para que ejerza la minima carga al sistema, por lo que se plantea con una librería de visualización para la creación de infogramas interactivos y archivos JSON para poblarla.
 

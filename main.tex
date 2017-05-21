@@ -23,17 +23,20 @@
 \date{mayo de 2017}
 
 \resumen{%
- El proyecto consta de varios módulos. La base de todo es un servidor implementado en node.js. En él se aloja la página web, los widgets de las diferentes empresas que han decidido implantarlo en sus páginas web y una restful API que administra el enrutamiento de la web y permite varias funciones sobre la base de datos.\\
+ El proyecto consta de varios módulos. La base de todo es un servidor implementado en node.js. En él se aloja la página web, los widgets de las diferentes empresas que han decidido implantarlo en sus páginas web y una API que administra el enrutamiento de la web y permite varias funciones sobre la base de datos.\\
  
  La página web sirve de apoyo al widget, es donde se muestra la información general del widget, los diferentes proyectos a los que apoyar, un wizard con el que poder crear tu propio widget y la plataforma para poder conseguir el certificado de donación.\\
  
  La base de datos noSQL aloja los datos de las diferentes donaciones para posteriormente poder crear el certificado de donación y eventualmente generar estadísticas sobre las cantidades, fechas y lugares en los que más donaciones se están obteniendo.\\
  
- Por último, el widget. Está pensado para que las empresas que tengan portales de compra online lo incrusten durante algunas de sus fases compra del cliente con el fin de que este haga una pequeña donación a la causa que las empresas han “apadrinado”. El widget es personalizable por las empresas que lo quieran implantar en su web, así conseguir una mayor integración con ellas. Entre sus opciones de personalización destaca la posibilidad de elegir entre una cantidad fija o variable de donación.
+ Por último, el widget. Está pensado para que las empresas que tengan portales de compra online lo incrusten durante algunas de sus fases compra del cliente con el fin de que este haga una pequeña donación a la causa que las empresas han “apadrinado”. El widget es personalizable por las empresas que lo quieran implantar en su web, así conseguir una mayor integración con ellas. Entre sus opciones de personalización destaca la posibilidad de elegir entre una cantidad fija o variable de donación.\\
+ 
+ 
+ Finalmente tiene implementado un sistema con graficos para extraer estadisticas de las donaciones.
   
  
 }
-\descriptores{solidaridad, widget, RESTful, NodeJS, MongoDB}
+\descriptores{solidaridad, widget, NodeJS, MongoDB, micro donaciones}
 
 
 %
@@ -55,6 +58,10 @@
 \chapter{Introducción}
 
 \input{chapters/introduccion}
+
+\chapter{Antecedentes y Justificación}
+
+\input{chapters/antecedentes}
 
 \chapter{Objetivos del proyecto}
 
@@ -95,13 +102,14 @@
 % Apéndices
 \backmatter
 \appendix
-%\chapter{Acrónimos}
+
 
 %\chapter{Licencia}
 %\input{0202_apendice}
 
 \bibliografia{otrasreferencias}
 %\bibliografiaOtras{otrasreferencias.bib} %Opcional
+%\chapter{Acrónimos}
 
 
 \end{document}

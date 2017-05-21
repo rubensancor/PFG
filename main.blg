@@ -3,47 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plainurl.bst
 Database file #1: otrasreferencias.bib
-Warning--I didn't find a database entry for "crowd"
-Warning--I didn't find a database entry for "keylist"
-You've used 15 entries,
+Repeated entry---line 121 of file otrasreferencias.bib
+ : @webpage{colorpicker
+ :                     ,
+I'm skipping whatever remains of this entry
+You've used 39 entries,
             2361 wiz_defined-function locations,
-            586 strings with 5185 characters,
-and the built_in function-call counts, 2921 in all, are:
-= -- 435
-> -- 15
+            656 strings with 6774 characters,
+and the built_in function-call counts, 7553 in all, are:
+= -- 1131
+> -- 39
 < -- 0
-+ -- 15
++ -- 39
 - -- 0
-* -- 167
-:= -- 480
-add.period$ -- 45
-call.type$ -- 15
-change.case$ -- 60
+* -- 431
+:= -- 1224
+add.period$ -- 117
+call.type$ -- 39
+change.case$ -- 156
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 105
-empty$ -- 256
+cite$ -- 39
+duplicate$ -- 273
+empty$ -- 664
 format.name$ -- 0
-if$ -- 706
+if$ -- 1834
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 39
 missing$ -- 0
-newline$ -- 78
+newline$ -- 198
 num.names$ -- 0
-pop$ -- 15
+pop$ -- 39
 preamble$ -- 1
-purify$ -- 45
+purify$ -- 117
 quote$ -- 0
-skip$ -- 164
+skip$ -- 428
 stack$ -- 0
-substring$ -- 75
+substring$ -- 195
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 156
 warning$ -- 0
 while$ -- 0
-width$ -- 17
-write$ -- 137
-(There were 2 warnings)
+width$ -- 41
+write$ -- 353
+(There was 1 error message)

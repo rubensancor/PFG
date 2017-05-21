@@ -1,78 +1,204 @@
 \begin{thebibliography}{10}
 
-\bibitem{wsdl1}
-{Atom(Wikipedia)} [online].
-\newblock mayo 2017.
-\newblock URL: \url{https://es.wikipedia.org/wiki/Atom_(editor_de_textos)}.
-
-\bibitem{wsdl10}
-{Equipo (Team)} [online].
-\newblock mayo 2017.
-\newblock URL: \url{https://proyectosagiles.org/equipo-team/}.
-
-\bibitem{wsdl11}
-{Facilitador (Scrum Master)} [online].
-\newblock mayo 2017.
-\newblock URL: \url{https://proyectosagiles.org/facilitador-scrum-master/}.
-
-\bibitem{wsdl12}
-{Alboan} [online].
-\newblock abril 2017.
-\newblock URL: \url{https://www.alboan.org/es}.
-
-\bibitem{wsdl13}
-{Node.js} [online].
-\newblock mayo 2017.
-\newblock URL: \url{https://nodejs.org/es/}.
-
-\bibitem{wsdl14}
+\bibitem{ajax}
 {Ajax} [online].
 \newblock mayo 2017.
 \newblock URL: \url{https://www.tutorialspoint.com/ajax/ajax_technology.htm}.
 
-\bibitem{wsdl15}
-{Bootstrap Color Picker 2.5.1} [online].
-\newblock mayo 2017.
-\newblock URL: \url{https://itsjavi.com/bootstrap-colorpicker/}.
+\bibitem{alboan}
+{Alboan} [online].
+\newblock abril 2017.
+\newblock URL: \url{https://www.alboan.org/es}.
 
-\bibitem{wsdl2}
+\bibitem{arquitectura}
+{Arquitectura de las aplicaciones Web} [online].
+\newblock mayo 2017.
+\newblock URL:
+  \url{https://programacionwebisc.wordpress.com/2-1-arquitectura-de-las-aplicaciones-web/}.
+
+\bibitem{atom}
 {Atom} [online].
 \newblock mayo 2017.
 \newblock URL: \url{https://atom.io/}.
 
-\bibitem{wsdl3}
-{MongoDB(Wikipedia)} [online].
+\bibitem{atomw}
+{Atom(Wikipedia)} [online].
 \newblock mayo 2017.
-\newblock URL: \url{https://es.wikipedia.org/wiki/MongoDB}.
+\newblock URL: \url{https://es.wikipedia.org/wiki/Atom_(editor_de_textos)}.
 
-\bibitem{wsdl4}
-{MongoDB} [online].
+\bibitem{benchmark}
+{Benchmark: PostgreSQL, MongoDB, Neo4j, OrientDB and ArangoDB} [online].
 \newblock mayo 2017.
-\newblock URL: \url{https://www.mongodb.com/es}.
+\newblock URL:
+  \url{https://www.arangodb.com/2015/10/benchmark-postgresql-mongodb-arangodb/}.
 
-\bibitem{wsdl5}
-{Git(Wikipedia)} [online].
+\bibitem{bootstrap}
+{Bootstrap} [online].
 \newblock mayo 2017.
-\newblock URL: \url{https://es.wikipedia.org/wiki/Git}.
+\newblock URL: \url{http://getbootstrap.com/}.
 
-\bibitem{wsdl6}
-{Git} [online].
-\newblock mayo 2017.
-\newblock URL: \url{https://git-scm.com/}.
-
-\bibitem{wsdl7}
-{Brackets(Wikipedia)} [online].
-\newblock mayo 2017.
-\newblock URL: \url{https://en.wikipedia.org/wiki/Brackets_(text_editor)}.
-
-\bibitem{wsdl8}
+\bibitem{brackets}
 {Brackets} [online].
 \newblock mayo 2017.
 \newblock URL: \url{http://brackets.io/}.
 
-\bibitem{wsdl9}
+\bibitem{bracketsw}
+{Brackets(Wikipedia)} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://en.wikipedia.org/wiki/Brackets_(text_editor)}.
+
+\bibitem{classconsole}
+{Node.js v7.10.0 Documentation. Class: Console} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://nodejs.org/api/console.html#console_class_console}.
+
+\bibitem{cliente}
 {Cliente (Product Owner)} [online].
 \newblock mayo 2017.
 \newblock URL: \url{https://proyectosagiles.org/cliente-product-owner/}.
+
+\bibitem{colorpicker}
+{Bootstrap Color Picker 2.5.1} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://itsjavi.com/bootstrap-colorpicker/}.
+
+\bibitem{crowdw}
+{Micromecenazgo} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://es.wikipedia.org/wiki/Micromecenazgo}.
+
+\bibitem{css}
+{CSS} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://www.w3schools.com/css/}.
+
+\bibitem{d3js}
+{D3.js} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://d3js.org/}.
+
+\bibitem{draw.io}
+{Draw.io} [online].
+\newblock mayo 2017.
+\newblock URL: \url{http://draw.io/}.
+
+\bibitem{email}
+{Validating email addresses using jQuery and regex} [online].
+\newblock mayo 2017.
+\newblock URL:
+  \url{http://stackoverflow.com/questions/2855865/validating-email-addresses-using-jquery-and-regex}.
+
+\bibitem{equipo}
+{Equipo (Team)} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://proyectosagiles.org/equipo-team/}.
+
+\bibitem{express}
+{Expressjs} [online].
+\newblock mayo 2017.
+\newblock URL: \url{http://expressjs.com/}.
+
+\bibitem{git}
+{Git} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://git-scm.com/}.
+
+\bibitem{gitw}
+{Git(Wikipedia)} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://es.wikipedia.org/wiki/Git}.
+
+\bibitem{json}
+{JSON} [online].
+\newblock mayo 2017.
+\newblock URL: \url{http://www.json.org/json-es.html}.
+
+\bibitem{log4j}
+{Log4J} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://logging.apache.org/log4j/2.x/}.
+
+\bibitem{mediaqueries}
+{CSS media queries} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://developer.mozilla.org/es/docs/CSS/Media_queries}.
+
+\bibitem{mocha}
+{Mocha} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://mochajs.org/}.
+
+\bibitem{mongo}
+{MongoDB} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://www.mongodb.com/es}.
+
+\bibitem{mongojs}
+{MongoJS} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://www.npmjs.com/package/mongojs}.
+
+\bibitem{mongovssql}
+{MySQL vs MongoDB 1000 reads} [online].
+\newblock mayo 2017.
+\newblock URL:
+  \url{http://stackoverflow.com/questions/9702643/mysql-vs-mongodb-1000-reads}.
+
+\bibitem{mongow}
+{MongoDB(Wikipedia)} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://es.wikipedia.org/wiki/MongoDB}.
+
+\bibitem{node}
+{Node.js} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://nodejs.org/es/}.
+
+\bibitem{nodemailer}
+{Nodemailer} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://nodemailer.com/about/}.
+
+\bibitem{npm}
+{NPM} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://www.npmjs.com/}.
+
+\bibitem{pdffiller}
+{Pdffiller} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://www.npmjs.com/package/pdffiller}.
+
+\bibitem{sass}
+{Sass} [online].
+\newblock mayo 2017.
+\newblock URL: \url{http://sass-lang.com/}.
+
+\bibitem{scrum}
+{Scrum} [online].
+\newblock mayo 2017.
+\newblock URL:
+  \url{https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)}.
+
+\bibitem{scrummaster}
+{Facilitador (Scrum Master)} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://proyectosagiles.org/facilitador-scrum-master/}.
+
+\bibitem{trello}
+{Trello} [online].
+\newblock mayo 2017.
+\newblock URL: \url{https://trello.com/}.
+
+\bibitem{velocidad}
+{MySQL vs PostgreSQL vs MongoDB (velocidad)} [online].
+\newblock mayo 2017.
+\newblock URL:
+  \url{http://macool.me/mysql-vs-postgresql-vs-mongodb-velocidad/04}.
+
+\bibitem{worldcoo}
+{Worldcoo} [online].
+\newblock mayo 2017.
+\newblock URL: \url{http://www.worldcoo.com/es/}.
 
 \end{thebibliography}
