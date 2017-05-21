@@ -1,5 +1,5 @@
-En este capitulo se hablará de como se plantea el proyecto a la hora de ser desarrollado. Es capítulo en el que se marcan los objetivos y la visión que se tiene del proyecto antes de comenzar a desarrollarlo. 
-				
+En este capítulo se especificará de cómo se plantea el proyecto a la hora de ser desarrollado. Es capítulo en el que se marcan los objetivos y la visión que se tiene del proyecto antes de comenzar a desarrollarlo.
+
 \section{Definición del proyecto}
 En esta sección se entrará a definir lo que va a ser el proyecto y los limites en los que se va a desarrollar.
 
@@ -17,7 +17,7 @@ Teniendo en cuenta los objetivos citado anteriormente la Colmena deberá cumplir
 	\item Una base de datos en la que almacenar las donaciones y los datos de los donantes.
 	\item Una herramienta con la que poder dispensar certificados de donación a las personas que han aportado con los proyectos.
 	\item Una herramienta para poder personalizar el widget y generarlo automáticamente.
-	\item Un servidor en el que centralizar todas las funcionalidades y rutas de la solución. Además el servidor será capaz de ofrecer una API para aplicaciones futuras que quieran añadirse a la solución.
+	\item Un servidor en el que centralizar todas las funcionalidades y rutas de la solución. Además, el servidor será capaz de ofrecer una API para aplicaciones futuras que quieran añadirse a la solución.
 	\item Un sistema de visualización interactivo en el que poder analizar los datos obtenidos desde la aplicación y sacar conclusiones de ellos.
 \end{itemize}
 
@@ -28,12 +28,12 @@ El producto final se compone de varios elementos listados a continuación:\\
 
 El elemento visual del proyecto lo formarían \textbf{la página web y el widget}. Estos dos elementos permitirán a los usuarios del sistema informarse de los proyectos que la ONG realiza, contactar con el soporte del proyecto o hacer uso de las funcionalidades que ofrecen, como por ejemplo recibir un certificado de donación o hacer una donación a uno de los proyectos. El widget puede estar alojado en cualquier comercio online. Estos dos elementos están estrictamente ligados a el servidor del proyecto que es el que les permite implementar todas sus funcionalidades.\\
 
-El elemento central del proyecto esta formado por \textbf{el servidor y la base de datos}. Estos dos elementos permiten desarrollar toda la funcionalidad del sistema ya que ofrecen un sistema de enrutado para la parte visual y toda la funcionalidad que deban implementar sus elementos. Por otra parte, este elemento ofrecerá una API en la que se ofrecen diferentes funcionalidades como consultas a la base de datos, siempre con cierta privacidad hacia los datos sensibles.\\
+El elemento central del proyecto está formado por \textbf{el servidor y la base de datos}. Estos dos elementos permiten desarrollar toda la funcionalidad del sistema ya que ofrecen un sistema de enrutado para la parte visual y toda la funcionalidad que deban implementar sus elementos. Por otra parte, este elemento ofrecerá una API en la que se ofrecen diferentes funcionalidades como consultas a la base de datos, siempre con cierta privacidad hacia los datos sensibles.\\
 
 El elemento final del proyecto consta del \textbf{sistema de visualización} de los datos. Gracias a este sistema se podrán visualizar los datos de manera interactiva y permitir a los empleados de Alboan hacer reflexiones sobre sus proyectos o los diferentes sectores de la población que les apoya en diferente medida. Por otra parte, también permitirá a los donantes ver como es la sociedad que les rodea y hacer un análisis de ella.
 
 \section{Descripción de realización}
-En esta sección se definirá el metodo de desarrollo elegido para llevar a cabo el proyecto.
+En esta sección se definirá el método de desarrollo elegido para llevar a cabo el proyecto.
 \subsection{Método de desarrollo}
 El proyecto se ha desarrollado utilizando la metodología ágil Scrum\cite{scrum}. Esta metodología encaja con el proyecto por el desconocimiento de algunas de las herramientas a utilizar y porque algunos de los requisitos pueden ser cambiantes.\\
 
@@ -45,31 +45,32 @@ En Scrum se realizan entregas parciales y regulares del producto final, prioriza
 
 Las iteraciones o sprints será de 3 semanas cada uno. Al comienzo de los sprints se hará una reunión para pensar cuales deben ser las tareas que deben ir dentro de dicho sprint y al final del mismo se realizará la reunión de revisión en la que se revisará el trabajo realizado y las tareas pendientes. Estas reuniones tendrán unos productos intermedios, los cuales serán explicados más adelante.\\
 
-Para apoyar la metodología elegida se utiliza Trello\cite{trello}. Trello es una aplicación online que sirve para organizar tareas online en diferentes tableros. Estos tableros estan compuestos por diferentes columnas por las que ir moviendo las tareas dependiendo de su estado.
+Para apoyar la metodología elegida se utiliza Trello\cite{trello}. Trello es una aplicación online que sirve para organizar tareas online en diferentes tableros. Estos tableros están compuestos por diferentes columnas por las que ir moviendo las tareas dependiendo de su estado.
 
 \subsection{Tareas principales}
 A continuación se listarán las principales tareas del proyecto, estas posteriormente se desglosaran en tareas mas pequeñas que el equipo de desarrollo pueda desarrollarlas mas agilmente. Estas tareas serán valoradas posteriormente y asignadas con un indicador de prioridad.
 
 \begin{itemize}
 	\item \textbf{Organización}\\
-	Consiste en la planificación y preparación del proyecto. Al comienzo del proyecto habrá que definir los requisitos e historias de usuario y posteriormente en cada reunión al final del sprint y al principio del siguiente habrá que realizar de nuevo esta labor. 
+	Consiste en la planificación y preparación del proyecto. Al comienzo del proyecto habrá que definir los requisitos e historias de usuario y posteriormente en cada reunión al final del sprint y al principio del siguiente habrá que realizar de nuevo esta labor.
 	\item \textbf{Seguimiento}\\
-	Seguimiento y control del desarrollo del proyecto con la finalidad de detectar los posibles errores tanto en la lógica como en la parte visual del sistema. El principal seguimiento viene dado por las reuniones que se realizan y por el cumplimiento de las historias de usuario.	
+	Seguimiento y control del desarrollo del proyecto con la finalidad de detectar los posibles errores tanto en la lógica como en la parte visual del sistema. El principal seguimiento viene dado por las reuniones que se realizan y por el cumplimiento de las historias de usuario.
 	\item \textbf{Análisis de tecnologías a usar}\\
-	Esta tarea consiste en analizar las posibles tecnologias que puedan cumplir con las funciones que se requieren en el proyecto. En esta tarea habrá que decidir cuales seran las tecnologias a utilizar para los diferentes elementos ya que el proyecto consta de varios y diferentes entre si. La decision tiene que estar basada en unos argumentos fundamentados. En principio no existe ningun requerimiento sobre las tecnologias por parte del demandante del proyecto.
+	Esta tarea consiste en analizar las posibles tecnologías que puedan cumplir con las funciones que se requieren en el proyecto. En esta tarea habrá que decidir cuales serán las tecnologías a utilizar para los diferentes elementos ya que el proyecto consta de varios y diferentes entre sí. La decisión tiene que estar basada en unos argumentos fundamentados. En principio no existe ningún requerimiento sobre las tecnologías por parte del demandante del proyecto.
 	\item \textbf{Arquitectura del proyecto}\smallbreak
-	Esta tarea consiste en definir la arquitectura del proyecto. Esto implica el diseño del proyecto en su totalidad y como va a ser la comunicacion entre las diferentes partes.
+	Esta tarea consiste en definir la arquitectura del proyecto. Esto implica el diseño del proyecto en su totalidad y como va a ser la comunicación entre las diferentes partes.
 	\item \textbf{Creación de la parte servidora y la base de datos}\smallbreak
-	Esta tarea consiste en crear la parte servidora del proyecto. En ella estará implementada toda la lógica del sistema y habrá que definir las conexiones con los diferentes elementos del sistema. En esta tarea, tambien, habra crear la base de datos y conectarla con el servidor para permitir la insercion y busqueda de los datos en ella.
+	Esta tarea consiste en crear la parte servidora del proyecto. En ella estará implementada toda la lógica del sistema y habrá que definir las conexiones con los diferentes elementos del sistema. En esta tarea, también, habrá crear la base de datos y conectarla con el servidor para permitir la inserción y búsqueda de los datos en ella.
 	\item \textbf{Creación de la página web y el widget}\smallbreak
-	Esta tarea consiste en la creacion y el diseño de la página web y el widget. En esta tarea principalmente se creará el diseño visual de ambos elementos y posteriormente se haran las conexiones con el servidor para permitirles implementar la parte lógica.
+	Esta tarea consiste en la creación y el diseño de la página web y el widget. En esta tarea principalmente se creará el diseño visual de ambos elementos y posteriormente se harán las conexiones con el servidor para permitirles implementar la parte lógica.
 	\item \textbf{Creación del sistema de visualización de datos}\smallbreak
-	Esta tarea consiste en la creacion de un sistema en el que poder hacer una visualizacion interactiva de los datos. Tambien habra que realizar el formateo de la informacion que llegue desde la base de datos, para que la visualizacion este correcta.
+	Esta tarea consiste en la creación de un sistema en el que poder hacer una visualización interactiva de los datos. También habrá que realizar el formateo de la información que llegue desde la base de datos, para que la visualización este correcta.
 	\item \textbf{Cierre del proyecto}\smallbreak
-	Esta tarea consiste en entregar a la ONG el sistema completo y prestarles apoyo en la implementacion del mismo. En el momento en el que Alboan haya implementado el sistema Colmena en su servidor, el proyecto estará terminado.
+	Esta tarea consiste en entregar a la ONG el sistema completo y prestarles apoyo en la implementación del mismo. En el momento en el que Alboan haya implementado el sistema Colmena en su servidor, el proyecto estará terminado.
 \end{itemize}
 
-Finalmente se procede a listar las diferentes tareas, más especificas, que se van a llevar a cabo en los sprints marcados. Esta información es orientativa, ya que sabemos, que en la metodologia scrum los sprints pueden ser cambiantes.
+Finalmente se procede a listar las diferentes tareas, más específicas, que se van a llevar a cabo en los sprints marcados. Esta información es orientativa, ya que sabemos, que en la metodología scrum los sprints pueden ser cambiantes.
+
 
 \begin{itemize}
 	\item T1 - Sprint 1
@@ -108,7 +109,7 @@ Gracias a la metodología que se va a utilizar es muy fácil generar productos i
 
 \begin{itemize}
 	\item Documento sobre el estudio de las tecnologías a utilizar y conclusiones.
-	\item Documento de analisis sobre la arquitectura y especificaciones del proyecto.
+	\item Documento de análisis sobre la arquitectura y especificaciones del proyecto.
 	\item Varios prototipos de la página web
 	\item Varios prototipos del widget
 	\item Documento de seguimiento de las tareas realizadas
@@ -119,7 +120,7 @@ Gracias a la metodología que se va a utilizar es muy fácil generar productos i
 Gracias a estos productos intermedios se podrá mantener un seguimiento del proyecto y tener una mejor estimación de las tareas y los tiempos necesarios para estas.
 
 \section{Organización y equipo}
-En esta seccion se definirá el esquema organizativo que seguira el proyecto y los perfiles profesionales que debe incluir.
+En esta sección se definirá el esquema organizativo que seguirá el proyecto y los perfiles profesionales que debe incluir.
 
 \subsection{Esquema organizativo}
 
@@ -142,7 +143,7 @@ En esta seccion se definirá el esquema organizativo que seguira el proyecto y l
 		\item Equipo multidisciplinar, capacidad de desarrollar diferentes tareas.
 		\item Equipo estable durante el proyecto y establecidos en la misma localización física.
 	\end{itemize}
-	
+
 \end{itemize}
 
 En la figura \ref{equiposcrum} se puede ver cómo será la interlocución entre los miembros del equipo. El Scrum master, representado por Rubén Sánchez, será el encargado de interaccionar con el Product Owner, que estará representado por una persona de Alboan. Por último, el equipo de desarrollo incluirá a las personas que desarrollen el proyecto, las cuales podremos ver más adelante.
@@ -155,17 +156,17 @@ En este apartado se describirá al equipo de proyecto que será el encargado de 
 \begin{itemize}
 	\item \textbf{Jefe de proyecto:} es el encargado de controlar que el proyecto se desarrolle correctamente y de garantizar los tiempos de desarrollo y la calidad del mismo. También se encargará de los aspectos de gestión del proyecto.
 	\item \textbf{Diseñador:} es el encargado de diseñar la interfaz de la página web y del widget.
-	\item \textbf{Analista de datos:} el encargado de analizar el sistema en materia de datos, para otorgar una solución consistente y correcta. Por otra parte es el encargado de analizar los datos que se extraen del proyecto y de crear informes interactivos y conclusiones de ellos.
+	\item \textbf{Analista de datos:} el encargado de analizar el sistema en materia de datos, para otorgar una solución consistente y correcta. Por otra parte, es el encargado de analizar los datos que se extraen del proyecto y de crear informes interactivos y conclusiones de ellos.
 	\item \textbf{Arquitecto web:} es el encargado de diseñar y desarrollar la arquitectura principal del proyecto. También se encarga de configurar las herramientas que vayan a utilizar los demás para asegurar su correcto funcionamiento.
 	\item \textbf{Programador:} es el encargado de desarrollar los métodos que el arquitecto haya establecido.
 \end{itemize}
 
-En la figura \ref{equipo}  se ve la organización en el equipo de proyecto. Alboan está como cliente externo a Deusto Tech. Dentro de Deusto Tech tenemos a Pablo García, el cual será el director del proyecto desde la empresa, y al equipo de la Colmena. Dentro del equipo de la Colmena se han separado los roles del Jefe de proyecto y del equipo de proyecto. Esto se ha hecho para ver la diferenciación en cuanto al plan de recursos humanos y para ver quien tiene la comunicación con el cliente, aunque en el proyecto los haya representado la misma persona.
+En la figura \ref{equipo} se ve la organización en el equipo de proyecto. Alboan está como cliente externo a Deusto Tech. Dentro de Deusto Tech tenemos a Pablo García, el cual será el director del proyecto desde la empresa, y al equipo de la Colmena. Dentro del equipo de la Colmena se han separado los roles del Jefe de proyecto y del equipo de proyecto. Esto se ha hecho para ver la diferenciación en cuanto al plan de recursos humanos y para ver quien tiene la comunicación con el cliente, aunque en el proyecto los haya representado la misma persona.
 
 \figura{0.7}{imgs/equipo.png}{Gráfico del equipo de proyecto}{equipo}{}
 
 \section{Condiciones de ejecución}
-En esta seccion se definiran las condiciones de ejecucion del proyecto, incluyendo el lugar, la jornada y los materiales necesarios.
+En esta sección se definirán las condiciones de ejecución del proyecto, incluyendo el lugar, la jornada y los materiales necesarios.
 
 \subsection{Entorno de trabajo}
 El desarrollo tendrá lugar en DeustoTech, sin un departamento de referencia.\\
@@ -190,12 +191,12 @@ Todo el software utilizado en el proyecto es gratuito. Este es el software utili
 \end{itemize}
 
 \subsection{Control de cambios}
-El seguimiento del proyecto se hará desde el tablón de Trello. En el tablón se registran los cambios que se generan y se generan notificaciones para las personas involucradas en la tarea que ha sufrido cambios. Finalmente esos cambios se tendrán en cuenta en las reuniones de final de sprint y se podrán comentar las diferentes opciones al cambio.\\
+El seguimiento del proyecto se hará desde el tablón de Trello. En el tablón se registran los cambios que se generan y se generan notificaciones para las personas involucradas en la tarea que ha sufrido cambios. Finalmente, esos cambios se tendrán en cuenta en las reuniones de final de sprint y se podrán comentar las diferentes opciones al cambio.\\
 
 En cuanto a reuniones de seguimiento del proyecto, tendremos una reunión cada viernes en la que el equipo de proyecto hablará con el supervisor de Deusto Tech. En esa reunión se podrán ver los avances y problemas que hay cada semana y se pensarán diferentes soluciones para ellos. Estas reuniones también servirían por si se necesitará algo de Deusto Tech.
 
 \section{Planificación}
-En la siguiente seccion se exponen los aspectos relacionados con la planificacion de proyecto. Para mayor facilidad a la hora de comprender las figuras que aparecen a continuación, se añade la tabla \ref{tbtareas} en la que aparecen las tareas y sus identificadores.
+En la siguiente sección se exponen los aspectos relacionados con la planificación de proyecto. Para mayor facilidad a la hora de comprender las figuras que aparecen a continuación, se añade la tabla \ref{tbtareas} en la que aparecen las tareas y sus identificadores.
 \begin{table}[]
 	\centering
 	\begin{tabular}{|c|l|}
@@ -246,7 +247,8 @@ En esta seccion se muestra el diagrama de Gantt del proyecto (Figura \ref{gantt}
 \figuraSinMarco{0.65}{imgs/gantt.png}{Diagrama de Gantt}{gantt}{}
 
 \subsection{Estimación de cargas de trabajo}
-En la tabla \ref{cargas} podemos ver las cargas de trabajo que tiene cada perfil.
+En la tabla \ref{cargas} podemos ver las cargas de trabajo que tiene cada perfil.\\
+
 \begin{table}[]
 	\centering
 	\begin{tabular}{llll}
@@ -269,7 +271,7 @@ En la figura \ref{tareas} podremos ver las tareas y su carga en horas.\\
 
 \figuraSinMarco{1}{imgs/tareas.png}{Lista de tareas con su coste en horas}{tareas}{}
 
-En la tabla \ref{precios} se detalla el presupuesto a gastar en los diferentes perfiles profesionales que demanda el proyecto. Esto tambien nos indicaria el presupuesto total del proyecto ya que el hardware y el software que se utilizarán en el proyecto no tendrán coste alguno.
+En la tabla \ref{precios} se detalla el presupuesto a gastar en los diferentes perfiles profesionales que demanda el proyecto. Esto también nos indicaría el presupuesto total del proyecto ya que el hardware y el software que se utilizarán en el proyecto no tendrán coste alguno.
 
 \begin{table}[]
 	\centering

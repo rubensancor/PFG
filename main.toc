@@ -56,9 +56,9 @@
 \contentsline {subsubsection}{Raz\IeC {\'o}n de uso}{28}
 \contentsline {section}{\numberline {5.2}MongoDB}{28}
 \contentsline {subsection}{\numberline {5.2.1}Raz\IeC {\'o}n de uso}{29}
-\contentsline {section}{\numberline {5.3}JSON}{29}
-\contentsline {subsection}{\numberline {5.3.1}Funcionamiento}{29}
-\contentsline {section}{\numberline {5.4}Bootstrap}{29}
+\contentsline {section}{\numberline {5.3}JSON}{30}
+\contentsline {subsection}{\numberline {5.3.1}Funcionamiento}{30}
+\contentsline {section}{\numberline {5.4}Bootstrap}{30}
 \contentsline {subsection}{\numberline {5.4.1}Raz\IeC {\'o}n de uso}{31}
 \contentsline {section}{\numberline {5.5}Sass (CSS3)}{31}
 \contentsline {subsection}{\numberline {5.5.1}Funcionamiento}{32}
@@ -102,8 +102,8 @@
 \contentsline {section}{\numberline {9.2}Manual del comercio online}{55}
 \contentsline {chapter}{\numberline {10}Incidencias}{59}
 \contentsline {section}{\numberline {10.1}Interacci\IeC {\'o}n con el cliente}{59}
-\contentsline {section}{\numberline {10.2}Implementacion del sistema de visualizacion de datos}{59}
+\contentsline {section}{\numberline {10.2}Implementaci\IeC {\'o}n del sistema de visualizaci\IeC {\'o}n de datos}{59}
 \contentsline {chapter}{\numberline {11}Conclusiones y lineas futuras}{61}
 \contentsline {section}{\numberline {11.1}Conclusiones}{61}
-\contentsline {section}{\numberline {11.2}Lineas futuras}{62}
+\contentsline {section}{\numberline {11.2}L\IeC {\'\i }neas futuras}{62}
 \contentsline {chapter}{Bibliograf\IeC {\'\i }a}{63}

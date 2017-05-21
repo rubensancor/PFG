@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.14)  22 MAY 2017 00:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.14)  22 MAY 2017 01:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -825,10 +825,6 @@ LaTeX Info: Redefining \% on input line 62.
 [2 <./imgs/cuentas.png>]
 Cap\'{\i }tulo 2.
 (./chapters/antecedentes.tex
-
-LaTeX Warning: Citation `alboan' on page 3 undefined on input line 8.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
@@ -856,10 +852,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 [3
 
  <./imgs/alboan.jpg>]
-
-LaTeX Warning: Citation `crowdw' on page 4 undefined on input line 34.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
@@ -867,10 +859,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
 [4]
-
-LaTeX Warning: Citation `worldcoo' on page 5 undefined on input line 61.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
@@ -905,9 +893,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 
-LaTeX Warning: Citation `scrum' on page 8 undefined on input line 38.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
@@ -934,124 +919,126 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
-
-LaTeX Warning: Citation `trello' on page 9 undefined on input line 48.
-
 [9 <./imgs/scrum.png>]
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
  [10] [11]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 129.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 130.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
 
 <imgs/equiposcrum.png, id=102, 603.25375pt x 251.94125pt>
 File: imgs/equiposcrum.png Graphic file (type png)
 
 <use imgs/equiposcrum.png>
-Package pdftex.def Info: imgs/equiposcrum.png used on input line 150.
+Package pdftex.def Info: imgs/equiposcrum.png used on input line 151.
 (pdftex.def)             Requested size: 305.43442pt x 127.558pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 150.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 151.
 
-LaTeX Info: Redefining \. on input line 156.
-LaTeX Info: Redefining \% on input line 156.
+LaTeX Info: Redefining \. on input line 157.
+LaTeX Info: Redefining \% on input line 157.
 [12 <./imgs/equiposcrum.png>]
 <imgs/equipo.png, id=110, 442.65375pt x 362.35374pt>
 File: imgs/equipo.png Graphic file (type png)
  <use imgs/equipo.png>
-Package pdftex.def Info: imgs/equipo.png used on input line 165.
+Package pdftex.def Info: imgs/equipo.png used on input line 166.
 (pdftex.def)             Requested size: 262.75269pt x 215.09724pt.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 165.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 166.
 
 [13 <./imgs/equipo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 199.
+               Default added (so using `tbp') on input line 200.
 
 <imgs/sprint1.png, id=115, 432.61626pt x 211.79124pt>
 File: imgs/sprint1.png Graphic file (type png)
  <use imgs/sprint1.png>
-Package pdftex.def Info: imgs/sprint1.png used on input line 237.
+Package pdftex.def Info: imgs/sprint1.png used on input line 238.
 (pdftex.def)             Requested size: 256.07744pt x 125.3694pt.
-LaTeX Info: Redefining \. on input line 237.
-LaTeX Info: Redefining \% on input line 237.
+LaTeX Info: Redefining \. on input line 238.
+LaTeX Info: Redefining \% on input line 238.
 
 [14] [15] <imgs/Sprint2.png, id=122, 442.65375pt x 151.56625pt>
 File: imgs/Sprint2.png Graphic file (type png)
 
 <use imgs/Sprint2.png>
-Package pdftex.def Info: imgs/Sprint2.png used on input line 238.
+Package pdftex.def Info: imgs/Sprint2.png used on input line 239.
 (pdftex.def)             Requested size: 256.07744pt x 87.68646pt.
  <imgs/Sprint3.png, id=123, 322.20375pt x 241.90375pt>
 File: imgs/Sprint3.png Graphic file (type png)
 
 <use imgs/Sprint3.png>
-Package pdftex.def Info: imgs/Sprint3.png used on input line 239.
+Package pdftex.def Info: imgs/Sprint3.png used on input line 240.
 (pdftex.def)             Requested size: 213.3957pt x 160.21802pt.
  <imgs/Sprint4.png, id=124, 563.10374pt x 141.52875pt>
 File: imgs/Sprint4.png Graphic file (type png)
 
 <use imgs/Sprint4.png>
-Package pdftex.def Info: imgs/Sprint4.png used on input line 240.
+Package pdftex.def Info: imgs/Sprint4.png used on input line 241.
 (pdftex.def)             Requested size: 298.75269pt x 75.08762pt.
  <imgs/gantt.png, id=125, 544.0325pt x 1281.78876pt>
 File: imgs/gantt.png Graphic file (type png)
 
 <use imgs/gantt.png>
-Package pdftex.def Info: imgs/gantt.png used on input line 246.
+Package pdftex.def Info: imgs/gantt.png used on input line 247.
 (pdftex.def)             Requested size: 277.4118pt x 653.62538pt.
 
 
-LaTeX Warning: Float too large for page by 16.895pt on input line 246.
+LaTeX Warning: Float too large for page by 16.895pt on input line 247.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 250.
-
-LaTeX Info: Redefining \. on input line 263.
-LaTeX Info: Redefining \% on input line 263.
-[16 <./imgs/sprint1.png> <./imgs/Sprint2.png> <./imgs/Sprint3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 252.
+
+LaTeX Info: Redefining \. on input line 264.
+LaTeX Info: Redefining \% on input line 264.
+[16 <./imgs/sprint1.png> <./imgs/Sprint2.png> <./imgs/Sprint3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 <imgs/tareas.png, id=132, 704.6325pt x 543.02875pt>
 File: imgs/tareas.png Graphic file (type png)
  <use imgs/tareas.png>
-Package pdftex.def Info: imgs/tareas.png used on input line 270.
+Package pdftex.def Info: imgs/tareas.png used on input line 272.
 (pdftex.def)             Requested size: 426.79141pt x 328.9104pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 274.
+               Default added (so using `tbp') on input line 276.
 
 ) [17 <./imgs/Sprint4.png>]
 LaTeX Info: Redefining \. on input line 70.
@@ -1069,10 +1056,6 @@ LaTeX Info: Redefining \% on input line 81.
 ]
 Cap\'{\i }tulo 5.
 (./chapters/tecnologias.tex
-
-LaTeX Warning: Citation `node' on page 25 undefined on input line 4.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -1082,9 +1065,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-
-LaTeX Warning: Citation `npm' on page 25 undefined on input line 13.
-
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 ) [25]
@@ -1092,9 +1072,6 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
-
-
-LaTeX Warning: Citation `express' on page 26 undefined on input line 35.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
@@ -1111,19 +1088,11 @@ File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
  [26]
-
-LaTeX Warning: Citation `nodemailer' on page 27 undefined on input line 61.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-(./src/mensaje.js)
-
-LaTeX Warning: Citation `mongojs' on page 27 undefined on input line 72.
-
-[27]
+(./src/mensaje.js) [27]
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
@@ -1134,13 +1103,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
  []
 
 (./src/busquedamongo.js)
-
-LaTeX Warning: Citation `pdffiller' on page 28 undefined on input line 87.
-
-
-LaTeX Warning: Citation `mongo' on page 28 undefined on input line 93.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
@@ -1158,9 +1120,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
  []
 
 
-LaTeX Warning: Citation `benchmark' on page 29 undefined on input line 112.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
@@ -1169,44 +1128,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 File: imgs/mongochart.png Graphic file (type png)
  <use imgs/mongochart.png>
 Package pdftex.def Info: imgs/mongochart.png used on input line 114.
-(pdftex.def)             Requested size: 426.79141pt x 240.07307pt.
+(pdftex.def)             Requested size: 341.43442pt x 192.05493pt.
 
+[29 <./imgs/mongochart.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
-LaTeX Warning: Citation `json' on page 29 undefined on input line 118.
+ []
 
-<imgs/objectJSON.png, id=174, 600.2425pt x 113.42375pt>
+<imgs/objectJSON.png, id=179, 600.2425pt x 113.42375pt>
 File: imgs/objectJSON.png Graphic file (type png)
 
 <use imgs/objectJSON.png>
 Package pdftex.def Info: imgs/objectJSON.png used on input line 123.
 (pdftex.def)             Requested size: 341.43442pt x 64.52066pt.
 
-<imgs/JSONejemplo.PNG, id=175, 172.39406pt x 162.6075pt>
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+<imgs/JSONejemplo.PNG, id=180, 172.39406pt x 162.6075pt>
 File: imgs/JSONejemplo.PNG Graphic file (type png)
 
 <use imgs/JSONejemplo.PNG>
 Package pdftex.def Info: imgs/JSONejemplo.PNG used on input line 127.
 (pdftex.def)             Requested size: 128.03871pt x 120.77179pt.
 
-
-LaTeX Warning: Citation `bootstrap' on page 29 undefined on input line 130.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[29]
 LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
- [30 <./imgs/mongochart.png> <./imgs/objectJSON.png> <./imgs/JSONejemplo.PNG>]
-
-LaTeX Warning: Citation `sass' on page 31 undefined on input line 145.
-
-
-LaTeX Warning: Citation `css' on page 31 undefined on input line 145.
-
-
+[30 <./imgs/objectJSON.png> <./imgs/JSONejemplo.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
@@ -1217,17 +1170,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
  []
 
 (./src/scss.html) (./src/css.html)
-
-LaTeX Warning: Citation `d3js' on page 32 undefined on input line 183.
-
-
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+ [32]
 Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
-LaTeX Info: Redefining \. on input line 184.
-LaTeX Info: Redefining \% on input line 184.
-[32]
+
 Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
@@ -1237,10 +1187,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--186
 ]
 Cap\'{\i }tulo 6.
 (./chapters/especificacion.tex
-
-LaTeX Warning: Citation `draw.io' on page 35 undefined on input line 17.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -1365,17 +1311,7 @@ LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
  [40 <./imgs/sunburst.png> <./imgs/dategraph.png>]
 Cap\'{\i }tulo 7.
-(./chapters/implementacion.tex
-
-LaTeX Warning: Citation `atom' on page 41 undefined on input line 7.
-
-
-LaTeX Warning: Citation `brackets' on page 41 undefined on input line 10.
-
-
-LaTeX Warning: Citation `git' on page 41 undefined on input line 13.
-
-[41
+(./chapters/implementacion.tex [41
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
@@ -1472,10 +1408,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
  []
 
 [45] (./src/modal.html)
-
-LaTeX Warning: Citation `mediaqueries' on page 46 undefined on input line 87.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
@@ -1495,58 +1427,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-(./src/expr.html)
-LaTeX Info: Redefining \. on input line 100.
-LaTeX Info: Redefining \% on input line 100.
- [46]
-
-LaTeX Warning: Citation `ajax' on page 47 undefined on input line 102.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+[46] (./src/expr.html)
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 (./src/certificado.js)
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-LaTeX Warning: Citation `colorpicker' on page 47 undefined on input line 109.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
 [47] (./src/cambiarcolor.js)
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 (./src/enviowidget.js)
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-LaTeX Info: Redefining \. on input line 125.
-LaTeX Info: Redefining \% on input line 125.
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
 [48] (./src/widget.html)) [49] [50
 
 ]
@@ -1557,7 +1481,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-LaTeX Warning: Citation `mocha' on page 51 undefined on input line 6.
+Overfull \hbox (7.28537pt too wide) in paragraph at lines 6--7
+[]\OT1/cmr/m/n/10.95 Por otra par-te, las prue-bas uni-ta-rias se han rea-li-za
+-do con un fra-me-work lla-ma-do Mocha[[]]
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
@@ -1776,20 +1703,17 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  8415 strings out of 494958
  119158 string characters out of 6179386
- 369536 words of memory out of 5000000
+ 381687 words of memory out of 5000000
  11333 multiletter control sequences out of 15000+600000
  29349 words of font info for 75 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 47i,10n,52p,1049b,1924s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,10n,52p,1049b,1311s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
@@ -1804,7 +1728,7 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (78 pages, 4365262 bytes).
+Output written on main.pdf (78 pages, 4366107 bytes).
 PDF statistics:
  365 PDF objects out of 1000 (max. 8388607)
  221 compressed objects within 3 object streams
